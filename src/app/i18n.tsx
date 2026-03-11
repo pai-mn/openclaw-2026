@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 
-type Locale = "en" | "zh" | "zh-TW" | "ko";
+type Locale = "en" | "zh" | "ko";
 
 interface Translations {
   home: {
@@ -108,41 +108,6 @@ const translations: Record<Locale, Translations> = {
     common: {
       prev: "上一页",
       next: "下一页",
-      back: "返回"
-    }
-  },
-  "zh-TW": {
-    home: {
-      slogan: "應運而生，因時而成",
-      menuTitle: "目錄導航",
-      hint: "點擊任意章節開始探索 →"
-    },
-    nav: {
-      back: "返回目錄"
-    },
-    puzzle: {
-      title: "龍蝦的拼圖",
-      subtitle: "了解 OpenClaw 的各個組成部分"
-    },
-    capabilities: {
-      title: "龍蝦可以做什麼",
-      subtitle: "探索 OpenClaw 的強大能力"
-    },
-    principle: {
-      title: "龍蝦的原理",
-      subtitle: "深入理解 OpenClaw 的工作原理"
-    },
-    whatWeCanDo: {
-      title: "我們可以做什麼",
-      subtitle: "用 OpenClaw 創造可能性"
-    },
-    ending: {
-      title: "感謝聆聽",
-      subtitle: "歡迎加入我們"
-    },
-    common: {
-      prev: "上一頁",
-      next: "下一頁",
       back: "返回"
     }
   },
