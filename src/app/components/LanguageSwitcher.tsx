@@ -3,9 +3,9 @@
 import { useI18n } from "../i18n";
 
 const languages = [
-  { code: "en", label: "English" },
   { code: "zh", label: "简体中文" },
   { code: "zh-TW", label: "繁體中文" },
+  { code: "en", label: "English" },
   { code: "ko", label: "한국어" },
 ];
 

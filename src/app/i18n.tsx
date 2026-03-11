@@ -205,7 +205,7 @@ function getNestedValue(obj: any, path: string): string {
 }
 
 export function I18nProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocale] = useState<Locale>("en");
+  const [locale, setLocale] = useState<Locale>("zh");
 
   useEffect(() => {
     const saved = localStorage.getItem("locale") as Locale;
