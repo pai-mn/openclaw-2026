@@ -43,7 +43,7 @@ interface Translations {
 const translations: Record<Locale, Translations> = {
   en: {
     home: {
-      slogan: "Assemble your AI capabilities like a puzzle, grab every opportunity precisely like a claw",
+      slogan: "Born from need, ready for the time",
       menuTitle: "Directory",
       hint: "Click any chapter to explore →"
     },
@@ -78,7 +78,7 @@ const translations: Record<Locale, Translations> = {
   },
   zh: {
     home: {
-      slogan: "像拼图一样，组装你的 AI 能力，像爪子一样，精准抓取每个机会",
+      slogan: "应运而生，因时而成",
       menuTitle: "目录导航",
       hint: "点击任意章节开始探索 →"
     },
@@ -113,7 +113,7 @@ const translations: Record<Locale, Translations> = {
   },
   "zh-TW": {
     home: {
-      slogan: "像拼圖一樣，組裝你的 AI 能力，像爪子一樣，精準抓取每個機會",
+      slogan: "應運而生，因時而成",
       menuTitle: "目錄導航",
       hint: "點擊任意章節開始探索 →"
     },
@@ -148,7 +148,7 @@ const translations: Record<Locale, Translations> = {
   },
   ko: {
     home: {
-      slogan: "퍼즐처럼 AI 역량을 조립하고, 발톱처럼 모든 기회를 정확하게 잡으세요",
+      slogan: "필요에서 태어나, 시대에 맞서",
       menuTitle: "목차",
       hint: "아무 챕터를 클릭하여 탐색하세요 →"
     },
