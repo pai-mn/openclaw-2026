@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useI18n } from "./i18n";
 import Link from "next/link";
-import { ArrowRight, FileText } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 
 const menuItems = [
@@ -49,31 +49,19 @@ export default function Home() {
           </div>
 
           <div className="w-full max-w-2xl">
-            <div className={`text-center mb-8 ${mounted ? 'animate-fade-up' : 'opacity-0'}`}>
-              <span className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-white shadow-md text-[#636e72] text-sm font-medium">
-                <FileText width="16" height="16" />
-                {t('home.menuTitle')}
-              </span>
-            </div>
-
             <div className="space-y-4">
               {menuItems.map((item, i) => (
                 <Link
                   key={item.id}
                   href={item.href}
-                  className={`directory-item flex items-center justify-between p-6 rounded-2xl bg-white shadow-lg hover:shadow-xl transition-all ${
+                  className={`directory-item flex items-center justify-between p-6 rounded-2xl bg-white shadow-lg hover:shadow-xl ${
                     mounted ? 'animate-fade-up opacity-0' : ''
                   }`}
                   style={{ animationDelay: `${i * 0.1 + 0.2}s` }}
                 >
                   <div className="flex items-center gap-5">
                     <div className="flex items-center gap-1.5">
-                      {[0, 1, 2].map((j) => (
-                        <div 
-                          key={j} 
-                          className={`w-1.5 h-1.5 rounded-full bg-gradient-to-r ${item.color}`}
-                        />
-                      ))}
+                      <div className={`w-3 h-3 rounded-full bg-gradient-to-r ${item.color}`} />
                     </div>
                     <span className="text-xl font-semibold text-[#2d3436]">{t(item.titleKey)}</span>
                   </div>
@@ -81,12 +69,6 @@ export default function Home() {
                 </Link>
               ))}
             </div>
-          </div>
-
-          <div className={`mt-16 text-center ${mounted ? 'animate-fade-up opacity-0' : ''}`} style={{ animationDelay: '0.8s' }}>
-            <p className="text-[#b2bec3] text-sm">
-              {t('home.hint')}
-            </p>
           </div>
         </main>
       </div>
