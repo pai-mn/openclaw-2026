@@ -1,30 +1,18 @@
 "use client";
 
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
-import { translations } from "../i18n/index";
+import { get } from "lodash-es";
+import { translations } from "@/i18n/index";
 
-type Locale = "en" | "zh" | "ko";
+export type Locale = "en" | "zh" | "ko";
 
 interface I18nContextType {
   locale: Locale;
   setLocale: (locale: Locale) => void;
-  t: (key: string) => string;
+  t: (key: string) => any;
 }
 
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
-
-function getNestedValue(obj: any, path: string): string {
-  const keys = path.split('.');
-  let value = obj;
-  for (const key of keys) {
-    if (value && typeof value === 'object' && key in value) {
-      value = value[key];
-    } else {
-      return path;
-    }
-  }
-  return typeof value === 'string' ? value : path;
-}
 
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [locale, setLocale] = useState<Locale>("zh");
@@ -42,7 +30,12 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   };
 
   const t = (key: string) => {
-    return getNestedValue(translations[locale], key);
+    const value = get(translations[locale], key);
+    if (value === undefined && process.env.NODE_ENV === 'development') {
+      console.warn(`Translation missing for key: ${key}`);
+      return key;
+    }
+    return value;
   };
 
   return (

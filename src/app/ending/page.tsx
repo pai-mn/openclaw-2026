@@ -1,10 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useI18n } from "../i18n";
+import { useI18n } from "@/app/i18n";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import LanguageSwitcher from "../components/LanguageSwitcher";
+import LanguageSwitcher from "@/app/components/LanguageSwitcher";
 
 export default function Ending() {
   const { t } = useI18n();
@@ -23,25 +23,27 @@ export default function Ending() {
   return (
     <>
       <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-md' : ''}`}>
-        <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
-          <Link 
-            href="/openclaw-and-us"
-            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-md text-[#636e72] hover:shadow-lg transition-all"
-          >
-            <ArrowLeft width="20" height="20" />
-            <span>{t('common.prev')}</span>
-          </Link>
-          <Link 
-            href="/"
-            className="flex items-center gap-2 px-6 py-2 rounded-full bg-gradient-to-r from-[#9775fa] to-[#ff6b6b] text-white font-medium shadow-lg hover:shadow-xl transition-all"
-          >
-            <span>{t('common.back')}</span>
-            <ArrowRight width="20" height="20" />
-          </Link>
-        </div>
+          <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-start gap-4">
+            <div className="flex items-center gap-2">
+              <Link 
+                href="/"
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-[#e8e8ef] text-[#636e72] hover:bg-white hover:shadow-md transition-all"
+              >
+                <span className="text-sm font-medium">{t('common.home')}</span>
+              </Link>
+              <Link 
+                href="/ai-agent-and-us"
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-[#e8e8ef] text-[#636e72] hover:bg-white hover:shadow-md transition-all"
+              >
+                <ArrowLeft width="18" height="18" />
+                <span className="text-sm font-medium">{t('common.prev')}</span>
+              </Link>
+            </div>
+            <div className="ml-auto">
+              <LanguageSwitcher />
+            </div>
+          </div>
       </div>
-
-      <LanguageSwitcher />
 
       <div className="min-h-screen bg-[#fff9f5] wave-bg">
         <main className="relative z-10 min-h-screen flex flex-col items-center justify-center px-8 pt-32 pb-20">
@@ -52,10 +54,10 @@ export default function Ending() {
             <span className="inline-block px-4 py-1 rounded-full bg-[#9775fa]/10 text-[#9775fa] text-sm font-medium mb-4">
               05
             </span>
-            <h1 className="text-4xl md:text-6xl font-bold font-display mb-4">
-              <span className="text-[#9775fa]">{t('ending.title')}</span>
+            <h1 className="text-4xl md:text-6xl font-bold font-display mb-4 text-black">
+              {t('ending.title')}
             </h1>
-            <p className="text-xl text-[#636e72] max-w-xl mx-auto">
+            <p className="text-3xl md:text-4xl font-bold text-[#636e72] max-w-xl mx-auto">
               {t('ending.subtitle')}
             </p>
           </div>

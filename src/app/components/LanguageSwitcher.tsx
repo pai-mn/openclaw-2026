@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { useI18n } from "../i18n";
+import { useI18n, type Locale } from "@/app/i18n";
 
 const languages = [
   { code: "zh", label: "简体中文" },
@@ -11,21 +10,12 @@ const languages = [
 
 export default function LanguageSwitcher() {
   const { locale, setLocale } = useI18n();
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
-    <div className={`fixed top-4 right-4 z-[60] transition-all duration-300 ${scrolled ? 'top-20' : ''}`}>
+    <div className="fixed top-4 right-4 z-50">
       <select
         value={locale}
-        onChange={(e) => setLocale(e.target.value as any)}
+        onChange={(e) => setLocale(e.target.value as Locale)}
         className="px-4 py-2 rounded-full bg-white shadow-md border border-[#e8e8ef] text-[#2d3436] font-medium text-sm cursor-pointer hover:shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-[#ff6b6b]"
       >
         {languages.map((lang) => (

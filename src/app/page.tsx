@@ -1,16 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useI18n } from "./i18n";
+import { useI18n } from "@/app/i18n";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import LanguageSwitcher from "./components/LanguageSwitcher";
+import LanguageSwitcher from "@/app/components/LanguageSwitcher";
 
 const menuItems = [
   { id: 1, titleKey: "puzzle.title", href: "/openclaw-puzzle", color: "from-[#ff6b6b] to-[#ffa502]" },
   { id: 2, titleKey: "capabilities.title", href: "/openclaw-capabilities", color: "from-[#ffa502] to-[#20bf6b]" },
   { id: 3, titleKey: "principle.title", href: "/openclaw-principle", color: "from-[#20bf6b] to-[#4dabf7]" },
-  { id: 4, titleKey: "open-claw-and-us.title", href: "/openclaw-and-us", color: "from-[#4dabf7] to-[#9775fa]" },
+  { id: 4, titleKey: "ai-agent-and-us.title", href: "/ai-agent-and-us", color: "from-[#4dabf7] to-[#9775fa]" },
   { id: 5, titleKey: "ending.title", href: "/ending", color: "from-[#9775fa] to-[#ff6b6b]" },
 ];
 
@@ -40,11 +40,15 @@ export default function Home() {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold mb-6 font-display">
-              Open<span className="text-[#ff6b6b]">Claw</span> 2026
+              <span className="text-[#ff6b6b]">OpenClaw</span> 2026
             </h1>
             
-            <p className="text-xl md:text-2xl text-[#636e72] max-w-xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-[#636e72] max-w-xl mx-auto leading-relaxed mb-3">
               {t('home.slogan')}
+            </p>
+            
+            <p className="text-sm text-[#b2bec3] font-medium">
+              {t('home.date')}
             </p>
           </div>
 
@@ -63,7 +67,9 @@ export default function Home() {
                     <div className="flex items-center gap-1.5">
                       <div className={`w-3 h-3 rounded-full bg-gradient-to-r ${item.color}`} />
                     </div>
-                    <span className="text-xl font-semibold text-[#2d3436]">{t(item.titleKey)}</span>
+                    <span className="text-xl font-semibold text-black">
+                      {t(item.titleKey)}
+                    </span>
                   </div>
                   <ArrowRight className="text-[#b2bec3]" width="24" height="24" />
                 </Link>

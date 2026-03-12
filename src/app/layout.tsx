@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { I18nProvider } from "./i18n";
+import { I18nProvider } from "@/app/i18n";
 
 export const metadata: Metadata = {
   title: "OpenClaw 2026",

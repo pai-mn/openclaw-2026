@@ -1,0 +1,478 @@
+home:
+  slogan: 应运而生，因时而成
+  date: 2026年3月12日
+  menuTitle: 目录导航
+  hint: 点击任意章节开始探索 →
+
+nav:
+  back: 返回目录
+
+puzzle:
+  title: OpenClaw的诞生
+  subtitle: ""
+  timelineIntro: 最近的事件
+  timelineTitle:
+    alexnet: AlexNet
+    alphago: AlphaGo
+    transformer: Transformer
+    alphafold: AlphaFold
+    chatgpt: ChatGPT 3.5
+    mcp: MCP 协议
+    deepseek: DeepSeek R1
+    sonnet4: Claude Sonnet 4
+    sonnet45: Claude Sonnet 4.5
+    agent: Agent Skills
+    openclaw: OpenClaw 诞生
+  timelineDesc:
+    alexnet: 深度学习革命
+    alphago: |-
+      "神"的陨落
+    transformer: 创世纪的图纸
+    alphafold: AI科学家
+    chatgpt: |-
+      "iPhone 时刻"
+    mcp: |-
+      "USB 接口"
+    deepseek: |-
+      廉价"炼金术"
+    sonnet4: 量变
+    sonnet45: 质变
+    agent: 插上翅膀
+    openclaw: 起飞
+  origin:
+    title: 人工智能的起源与发展
+    quote: 「机器能思考吗？」
+    eras:
+      0:
+        title: 诞生期
+        desc: 达特茅斯会议确立AI学术领域，逻辑理论家、跳棋程序等早期成就
+      1:
+        title: 起伏期
+        desc: 从第一次寒冬到专家系统崛起，AI在特定领域焕发第二春
+      2:
+        title: 转型期
+        desc: 深蓝击败卡斯帕罗夫，研究重心从规则转向数据驱动的统计学习
+      3:
+        title: 深度学习时代
+        desc: ImageNet与AlphaGo的突破，CNN与强化学习结合开启新纪元
+      4:
+        title: 大模型时代
+        desc: Transformer架构与ChatGPT发布，AI从感知进化到生成创造
+  agent:
+    title: （真正可用的）智能体时代的来临
+    intro: |-
+      时机到了，时也命也，时势造英雄。即使不出现龙虾，也可能出现其他"节肢动物"。
+    openclaw:
+      title: OpenClaw：拼图
+      pieces:
+        - number: 第一块
+          title: 足够强大的大语言模型
+          content: Claude Sonnet 4.5+
+          short: LLM ✨
+          color: "#ff6b6b"
+        - number: 第二块
+          title: 基础工具
+          content: Bash
+          short: Bash
+          color: "#ffa502"
+        - number: 第三块
+          title: MCP 协议
+          content: Model Context Protocol
+          short: MCP
+          color: "#20bf6b"
+        - number: 第四块
+          title: 技能生态系统
+          content: Skills Ecosystem
+          short: Skills
+          color: "#06b6d4"
+      result: 当这四块关键拼图完美咬合，OpenClaw 应运而生，真正可用的 AI 智能体时代就此开启。
+    reality:
+      title: OpenClaw 到底怎么样？
+      subtitle: 一个可用，但有一堆"问题"的系统｜✨ 可以工作，有时候相当惊艳 ✨
+      issues:
+        - title: 性能很差
+          icon: Zap
+          desc: 长运行时和复杂的上下文管理导致响应延迟
+        - title: 配置极为复杂
+          icon: Settings
+          desc: 多层配置文件、环境变量、渠道设置让新手望而却步
+        - title: 严重的安全问题
+          icon: Lock
+          desc: 工具权限、沙箱逃逸、代码执行风险需要谨慎对待
+        - title: 无人审查快速膨胀的代码
+          icon: Package
+          desc: 技能生态系统缺乏统一标准和质量审查机制
+        - title: 非常消耗 Token
+          icon: DollarSign
+          desc: 长上下文、多轮对话、技能加载导致成本快速上升
+        - title: 极度被炒作
+          icon: Megaphone
+          desc: 市场期望与实际能力存在差距，需要理性看待
+  events:
+    alexnet: >-
+      2012年，AlexNet 在 ImageNet 竞赛中以15.3%的错误率夺冠，
+      领先第二名近10个百分点，首次证明深度学习可以在大规模图像识别任务上超越传统方法，
+      开启了深度学习革命
+    alphago: >-
+      2016年，AlphaGo 4:1战胜世界围棋冠军李世石，
+      神的一手第37步震惊棋坛，标志着AI在复杂策略游戏领域的突破
+    transformer: >-
+      2017年，Google发布《Attention Is All You Need》论文，提出Transformer架构，
+      完全基于注意力机制，无需循环和卷积，成为所有大语言模型的基础
+    alphafold: >-
+      2020年，DeepMind的AlphaFold解决了困扰生物学50年的蛋白质折叠问题，
+      能够在数天内准确预测蛋白质三维结构
+    chatgpt: >-
+      2022年11月30日，OpenAI推出ChatGPT，基于GPT-3.5模型，
+      5天用户破百万，两个月破亿，成为史上增长最快的消费级应用
+    mcp: >-
+      2024年11月25日，Anthropic发布MCP（模型上下文协议），
+      作为AI系统的USB接口标准，统一AI与数据源的连接方式
+    deepseek: >-
+      2025年1月，中国DeepSeek发布R1推理模型，
+      以极低成本实现了与OpenAI o1相当的推理能力，证明AI可以被民主化
+    sonnet4: >-
+      2025年5月23日，Anthropic发布Claude Sonnet 4，
+      在推理能力、编码能力上显著提升，标志着基础模型的量变
+    sonnet45: >-
+      2025年9月30日，Claude Sonnet 4.5发布，
+      在复杂推理任务上实现质的飞跃，引发AI能力的质变
+    agent: >-
+      2025年10月16日，Anthropic推出Agent Skills，
+      让Claude能够使用工具执行复杂任务，为AI Agent插上翅膀
+    openclaw: >-
+      2025年11月24日，OpenClaw提交第一个Git Commit，
+      开始了构建AI Agent框架的旅程
+
+capabilities:
+  title: OpenClaw可以做什么
+  subtitle: OpenClaw范式的创新
+  multiChannelExample: 多渠道通信示例
+  ai24Hours: AI的24小时
+  evolutionLoop: 自我进化循环
+  evolutionLoopAlt: AI自我迭代学习循环
+  clawEcosystem: 探索 Claw 生态宇宙
+  clawEcosystemDesc: OpenClaw已死，OpenClaw万岁！
+  clawProducts:
+    - name: NanoBot
+      desc: 超轻量级，4000行Python代码
+      tags: ["100MB RAM", "香港大学"]
+    - name: ZeroClaw
+      desc: Rust原生，极致性能
+      tags: ["3.4MB", "10ms启动"]
+    - name: PicoClaw
+      desc: Go语言，超低成本
+      tags: ["$10硬件", "10MB RAM"]
+    - name: NanoClaw
+      desc: Docker容器隔离
+      tags: ["500行TS", "安全优先"]
+    - name: IronClaw
+      desc: Rust安全架构
+      tags: ["五层防御", "加密管理"]
+    - name: LobsterAI
+      desc: 网易有道全能助手
+      tags: ["24/7运行", "多平台"]
+    - name: TinyClaw
+      desc: 极简主义
+      tags: ["400行代码", "零依赖"]
+    - name: Moltis
+      desc: 单一二进制部署
+      tags: ["Rust", "本地优先"]
+    - name: CoPaw
+      desc: 阿里开源平台
+      tags: ["本地LLM", "AgentScope"]
+    - name: ZeptoClaw
+      desc: 生产级Rust实现
+      tags: ["6MB", "3100+测试"]
+    - name: EasyClaw
+      desc: 零配置托管服务
+      tags: ["一键部署", "$49/月"]
+    - name: KimiClaw
+      desc: Moonshot月之暗面
+      tags: ["5000+技能", "40GB存储"]
+    - name: NullClaw
+      desc: Zig语言生态
+      tags: ["3.4MB", "模块化"]
+    - name: MaxClaw
+      desc: MiniMax云服务
+      tags: ["M2.5模型", "10秒部署"]
+    - name: QClaw
+      desc: 腾讯一键安装器
+      tags: ["微信直连", "零门槛"]
+  timeline24Hours:
+    - time: "06:30"
+      task: 早安提醒
+      desc: 汇总昨天，计划今天，生成简报
+    - time: "09:00"
+      task: 整理邮件
+      desc: 自动分类邮件，标记重要事项
+    - time: "11:00"
+      task: 会议准备
+      desc: 整理会议资料，生成议程
+    - time: "12:30"
+      task: 订午餐
+      desc: 根据口味偏好推荐餐厅，并直接下单支付
+    - time: "14:30"
+      task: 重要客户邮件
+      desc: 检测到大客户来信，优先处理
+      type: triggered
+    - time: "16:30"
+      task: 记录会议纪要
+      desc: 整理下午会议的关键内容
+    - time: "18:30"
+      task: 生成日报
+      desc: 汇总今日完成的工作
+    - time: "20:30"
+      task: 明日日程
+      desc: 提醒明天的会议和待办事项
+    - time: "22:30"
+      task: 晚安提示
+      desc: 设置闹钟，关闭工作通知
+  capabilityTags:
+    - 关灯
+    - 开空调
+    - 锁门
+    - 整理邮件
+    - 制作 PPT
+    - 制作报表
+    - 写代码
+    - 部署项目
+    - 生成图
+    - 剪视频
+    - 写推文
+    - 做调查
+    - 制作报纸
+    - 记笔记
+    - 安排日程
+    - 炒股票
+    - 盯金价
+    - 记账
+    - 订机票
+    - 点外卖
+    - 查天气
+    - 清垃圾
+    - 购物下单
+    - 报税
+    - 讨价还价
+    - 讲冷笑话
+    - 订生日蛋糕
+  features:
+    - title: 多渠道通信：交互创新
+      desc: 创新点：直接在IM软件中操控AI，无需学习新工具。支持多个IM软件，直接通过手机对话
+    - title: 能力边界：丰富的工具访问
+      desc: 浏览器自动化、系统命令执行、文件系统操作、相机/屏幕录制、通知、定位服务
+    - title: 全天无休：自主行动
+      desc: AI自主工作，无需人工干预。定时任务自动执行，外部事件主动响应，后台持续运行，真正的全天候智能助手
+    - title: 养龙虾：自我迭代
+      desc: AI可以自主修改代码、创建新技能、优化系统配置。三层记忆系统（工作内存、短期记忆、长期记忆）让AI真正记住你的偏好和习惯，形成个性化智能助手。通过ClawHub获取社区技能，持续学习进化
+    - title: 其他特性，或也可以是其他Claw
+      desc: MCP协议生态（像USB一样的标准化接口，连接海量服务）、10,700+社区技能、本地优先架构、五层安全防御体系、多智能体系统、自托管部署等
+
+principle:
+  title: OpenClaw的原理
+  subtitle: 深入理解 OpenClaw 的工作原理
+  sections:
+    - title: 系统架构概览
+      desc: OpenClaw 是一个长运行时系统，采用本地优先、自托管的架构设计。
+      components:
+        label: 核心组件包括：
+        items:
+          - name: Gateway
+            desc: 控制平面
+          - name: Agent Runtime
+            desc: 执行平面
+          - name: Channel Adapters
+            desc: 渠道适配器
+          - name: Workspace
+            desc: 工作空间系统
+      color: "#20bf6b"
+    - title: Agent 执行循环
+      desc: >-
+        Agent 实现连续的状态化执行循环：解析会话 → 组装上下文 → 调用模型 → 执行工具 → 持久化状态 → 循环继续。
+        这种设计让 Agent 能够持续学习和记忆。
+      color: "#9775fa"
+  architecture:
+    philosophy:
+      title: 核心设计哲学：Bash is All You Need
+      intro: 来自 Anthropic 工程师 Thariq Shihipar 在《Claude Agent SDK Workshop》中提出的革命性观点：与其为 Agent 定义成千上万个定制化 API，不如直接赋予它 Unix 时代的两项原始能力。
+      bash:
+        title: Bash（终极胶水）
+        composability: "组合性：通过管道连接百万级成熟软件"
+        discoverability: "发现性：像人类一样探索环境"
+      filesystem:
+        title: 文件系统（长期记忆）
+        context: "上下文工程：超长任务管理方案"
+        persistence: "状态持久化：渐进式披露，处理巨型项目"
+      quote: "给予 Agent 一个电脑终端，它就拥有了像人类一样解决数字世界问题的通用能力。"
+      author: Thariq Shihipar
+    paradigm:
+      title: 范式转移：从工具调用到操作系统级自主
+      dimensions:
+        flexibility: 灵活性
+        security: 安全性
+        efficiency: 效率
+      traditional:
+        flexibility: 开发者必须预先定义好每个函数
+        security: 依赖 API 权限管理
+        efficiency: 单次交互完成简单任务
+      newParadigm:
+        flexibility: Agent 随用随写脚本，组合现有工具
+        security: 沙盒 + 权限 + 审计（瑞士奶酪防御）
+        efficiency: Agent Loop 完成长程任务
+      tableHeaders:
+        dimension: 维度
+        traditional: 传统工具调用
+        new: Bash & 文件系统范式
+    diagram: 系统架构图
+  agentLoop:
+    pseudocode: 伪代码示例
+    simpleDiagram: 简化流程图
+    completeDiagram: 完整执行流程
+
+ai-agent-and-us:
+  title: AI Agent与我们
+  subtitle: 当我们谈论AI时，我们在谈论什么
+  topics:
+    - title: 维特根斯坦：语言的边界
+      author: Ludwig Wittgenstein
+      quote: 我的语言的界限意味着我的世界的界限。语言游戏决定了意义的产生方式。当我们让AI理解语言，我们是在让它理解世界吗？
+      tags: ["哲学", "语言"]
+      link: "https://www.gutenberg.org/ebooks/5740"
+    
+    - title: 逍遥游
+      author: 庄子
+      quote: 大鹏水击三千里，抟扶摇而上者九万里。人借助AI，善假于物，凭虚御风，是否也能扶摇直上？这种人机协同，或许就是当代的逍遥游。
+      tags: ["哲学", "人机协同"]
+    
+    - title: 第一性原理
+      author: Elon Musk / 古希腊哲学
+      quote: 回到事物最基本的层面思考问题。但在AI时代，当我们用AI解决问题时，不懂第一性原理就只能停留在表面。然而——我们真的需要抓住精髓吗？还是表面就已足够？
+      tags: ["思维方法", "哲学"]
+    
+    - title: 光电效应与量子跃迁
+      author: Albert Einstein
+      year: "1905"
+      quote: 光电效应告诉我们：光的频率决定能否激发电子，强度只决定数量。人的能力是频率，AI是强度。如果人本身没有足够的频率（基础能力、思考力），人或许会成为掣肘AI的限制。
+      tags: ["物理类比", "人机协同"]
+    
+    - title: 最小二乘法与GPT
+      author: 数学原理
+      quote: 最小二乘法寻找最佳拟合曲线，GPT通过最大化似然寻找最佳的下一个词。两者本质都是在高维空间中寻找最优解，只是GPT的空间维度达到了前所未有的规模。
+      tags: ["数学", "技术原理"]
+    
+    - title: 熵与智能：智能即压缩
+      author: 信息论视角
+      quote: Shannon的信息熵理论暗示：智能本质上是对世界的压缩。语言模型通过学习数据分布来压缩信息，预测能力越强，压缩率越高，智能程度越高。
+      tags: ["信息论", "智能本质"]
+      link: "https://arxiv.org/abs/2407.06645"
+    
+    - title: Martin Fowler：AI重塑软件
+      author: Martin Fowler
+      year: "2024"
+      quote: AI正在改变软件开发的每一个环节：从需求收集、设计、编码、测试到部署。我们需要重新思考软件工程的最佳实践，拥抱AI-native的开发范式。
+      tags: ["软件工程", "产业变革"]
+    
+    - title: UI is PreAI
+      author: 行业观点
+      year: "2025"
+      quote: 传统UI是为人类设计的接口，但在AI时代，自然语言或许是最好的接口。
+      tags: ["UI/UX", "趋势"]
+    
+    - title: Anthropic：AI对劳动力市场的影响
+      author: Anthropic Research
+      year: "2024"
+      quote: AI对就业的实际影响仍远低于其理论潜力，且尚未导致系统性的失业率上升。
+      tags: ["劳动力", "产业"]
+      link: "https://www.anthropic.com/research/labor-market-impacts"
+    
+    - title: 大的要来了
+      author: Matt Shumer
+      year: "2026-02-09"
+      quote: 2026年2月9日，一位身处AI行业六年的从业者写道：从GPT-4到Claude Sonnet 4.5，从单一模型到多Agent系统，从工具调用到自主行动。多个信号表明：我们正处于AI能力跃迁的前夜。这不是预测，而是已经发生的事实。
+      tags: ["趋势", "预测"]
+      link: "https://shumer.dev/something-big-is-happening"
+    
+    - title: 苦涩的教训
+      author: Rich Sutton
+      year: "2019"
+      quote: 70年AI研究史告诉我们：利用计算的通用方法最终胜过人类知识。我们应该停止试图将人类知识硬编码进系统，转而构建能够通过搜索和学习发现知识的通用方法。
+      tags: ["方法论", "AI历史"]
+      link: "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+    
+    - title: 语言模型：见微知著的学习者
+      author: OpenAI (GPT-3论文)
+      year: "2020"
+      quote: 大规模语言模型展现出令人惊讶的少样本学习能力。在没有梯度更新或微调的情况下，仅通过文本交互和示例，模型就能完成各种任务。
+      tags: ["技术洞察", "Few-Shot Learning"]
+      link: "https://arxiv.org/abs/2005.14165"
+    
+    - title: 抽象泄漏法则
+      author: Joel Spolsky
+      year: "2002"
+      quote: 所有重大的抽象机制在某种程度上都会泄漏。当我们把LLM当作"智能"的抽象时，它的漏洞是什么？我们是否过度依赖这个抽象？当抽象泄漏时——当AI出错、幻觉、失控时——我们该怎么办？
+      tags: ["软件工程", "抽象"]
+      link: "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"
+    
+    - title: Tokens与货币
+      author: 概念类比
+      quote: Tokens是AI世界的基础计量单位。正如货币体系通过量化价值实现经济运转，Tokens通过量化信息构建了AI经济学：API调用以Tokens计费，模型能力以Token窗口度量，Tokens成为连接算力、数据与智能的价值锚点。
+      tags: ["经济学", "概念"]
+    
+    - title: 吴恩达：Agentic Workflow价值巨大
+      author: Andrew Ng
+      year: "2024"
+      quote: LLM并不是终点，Agentic Workflow才是关键。让AI像人类一样迭代工作——思考、行动、反思、改进——能够将AI的效能提升数倍。
+      tags: ["工作流", "Agent"]
+      link: "https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/"
+    
+    - title: Bash is All You Need
+      author: Thariq Shihipar (Anthropic)
+      year: "2025"
+      quote: 与其为Agent设计成千上万个专用API，不如赋予其终端访问能力。Bash与文件系统的组合即可构成完备的通用计算能力——这既是OpenClaw架构的核心哲学，或许也解释了当今Agent类编程工具广泛采用TUI的深层原因。
+      tags: ["技术架构", "Agent"]
+      link: "https://www.reddit.com/r/ClaudeAI/comments/1q4yig7/claude_agent_sdk_full_workshop_thariq_shihipar/"
+    
+    - title: Anthropic开发流程：不再需要PRD
+      author: Anthropic Team
+      year: "2025"
+      quote: 我们的工程团队已经不再写传统的PRD文档。直接与Claude对话，描述需求，迭代设计，生成代码。从想法到原型的时间缩短了10倍。
+      tags: ["开发流程", "产业实践"]
+      link: "https://www.youtube.com/watch?v=julbw1JuAz0"
+    
+    - title: TDD：测试驱动开发
+      author: 软件工程方法论
+      quote: AI时代的TDD回归本质：描述结果，而非过程。测试即规格，声明即实现——"撒豆成兵"、"言出法随"。
+      tags: ["开发方法论", "TDD"]
+    
+    - title: 以AI为中心：数据+工作流
+      author: 行业趋势
+      year: "2025"
+      quote: 从以数据为中心到以AI为中心的转变。不是把AI嵌入现有系统，而是围绕AI重新设计数据架构和工作流。这是范式转移。
+      tags: ["架构", "范式转移"]
+    
+    - title: 基于100万亿Tokens数据的AI现状报告
+      author: OpenRouter & a16z
+      year: "2025-12"
+      quote: 角色扮演（Roleplay）和代码编写是目前AI落地最核心、粘性最高的两大实战领域。代码编写的Tokens占比从2025年初的11%飙升至50%+。
+      tags: ["数据", "现状分析"]
+      link: "https://openrouter.ai/state-of-ai"
+    
+    - title: 2028全球智能危机
+      author: Citrini Research (James van Geelen & Alap Shah)
+      year: "2026-02-22"
+      quote: 2026年2月22日，Citrini Research发布报告：如果AI以当前速度发展，2028年可能出现全球性的"智能危机"——失业率达10.2%，标普500暴跌38%。大量知识工作被自动化，社会结构面临重组，人类需要重新定义工作和价值。
+      tags: ["未来", "社会影响"]
+      link: "https://www.citriniresearch.com/p/2028gic"
+
+ending:
+  title: 感谢聆听
+  subtitle: Q & A
+
+common:
+  prev: 上一页
+  next: 下一页
+  back: 返回
+  home: 返回首页
+  readOriginal: 阅读原文
+  preview: 预览
+  triggered: 触发

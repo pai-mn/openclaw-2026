@@ -9,6 +9,7 @@ This file contains instructions for AI agents working on this project.
 
 ## Tech Stack
 
+- Bun
 - Next.js 16
 - React 19
 - Tailwind CSS 4

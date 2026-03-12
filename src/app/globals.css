@@ -104,3 +104,38 @@ h1, h2, h3, h4, h5, h6 {
     radial-gradient(ellipse at 80% 70%, rgba(255, 107, 107, 0.1) 0%, transparent 50%),
     radial-gradient(ellipse at 50% 50%, rgba(32, 191, 107, 0.08) 0%, transparent 60%);
 }
+
+.puzzle-piece {
+  position: relative;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.puzzle-piece::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, transparent 30%, currentColor 30%, currentColor 32%, transparent 32%);
+  opacity: 0.1;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes puzzle-glow {
+  0%, 100% { 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  }
+  50% { 
+    box-shadow: 0 8px 24px rgba(255, 107, 107, 0.3), 0 0 0 4px rgba(255, 107, 107, 0.1); 
+  }
+}
+
+.puzzle-piece:hover {
+  transform: translateY(-4px) scale(1.02);
+  animation: puzzle-glow 2s ease-in-out infinite;
+}

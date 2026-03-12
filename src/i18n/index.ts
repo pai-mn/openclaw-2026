@@ -1,9 +1,10 @@
-import zh from './locales/zh';
-import en from './locales/en';
-import ko from './locales/ko';
+import { load } from 'js-yaml';
+import zhYaml from './locales/zh.yaml';
+import enYaml from './locales/en.yaml';
+import koYaml from './locales/ko.yaml';
 
 export const translations = {
-  zh: zh as Record<string, any>,
-  en: en as Record<string, any>,
-  ko: ko as Record<string, any>,
+  zh: load(zhYaml) as Record<string, any>,
+  en: load(enYaml) as Record<string, any>,
+  ko: load(koYaml) as Record<string, any>,
 };
