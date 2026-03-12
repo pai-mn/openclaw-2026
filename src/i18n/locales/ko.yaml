@@ -9,7 +9,7 @@ nav:
 
 puzzle:
   title: OpenClaw의 탄생
-  subtitle: ""
+  subtitle: ''
   timelineIntro: 최근 사건
   timelineTitle:
     alexnet: AlexNet
@@ -59,37 +59,37 @@ puzzle:
       4:
         title: 대형 언어 모델 시대
         desc: Transformer 아키텍처와 ChatGPT 출시, AI가 인지에서 생성으로 진화
-    agent:
-      title: (진정으로 사용 가능한) 에이전트 시대의 여명
-      intro: |-
-        때가 무르익었고, 그것은 운명이며, 시대가 영웅을 만들어냅니다. 가재가 나타나지 않았더라도 다른 "절지동물"이 나타났을 것입니다.
-      openclaw:
-        title: "OpenClaw: 퍼즐"
-        pieces:
-          - number: 첫 번째 조각
-            title: 강력한 언어 모델
-            content: Claude Sonnet 4.5+
-            short: LLM ✨
-            color: "#ff6b6b"
-          - number: 두 번째 조각
-            title: 기본 도구
-            content: Bash
-            short: Bash
-            color: "#ffa502"
-          - number: 세 번째 조각
-            title: MCP 프로토콜
-            content: Model Context Protocol
-            short: MCP
-            color: "#20bf6b"
-          - number: 네 번째 조각
-            title: 스킬 생태계
-            content: Skills Ecosystem
-            short: Skills
-            color: "#06b6d4"
+  agent:
+    title: (진정으로 사용 가능한) 에이전트 시대의 여명
+    intro: |-
+      때가 무르익었고, 그것은 운��이며, 시대가 영웅을 만들어냅니다. 가재가 나타나지 않았더라도 다른 "절지동물"이 나타났을 것입니다.
+    openclaw:
+      title: 'OpenClaw: 퍼즐'
+      pieces:
+        - number: 첫 번째 조각
+          title: 강력한 언어 모델
+          content: Claude Sonnet 4.5+
+          short: LLM ✨
+          color: '#ff6b6b'
+        - number: 두 번째 조각
+          title: 기본 도구
+          content: Bash
+          short: Bash
+          color: '#ffa502'
+        - number: 세 번째 조각
+          title: MCP 프로토콜
+          content: Model Context Protocol
+          short: MCP
+          color: '#20bf6b'
+        - number: 네 번째 조각
+          title: 스킬 생태계
+          content: Skills Ecosystem
+          short: Skills
+          color: '#06b6d4'
       result: 이 네 가지 핵심 조각이 완벽하게 맞물릴 때, OpenClaw가 탄생하고 진정으로 사용 가능한 AI 에이전트 시대가 시작됩니다.
-      reality:
-        title: OpenClaw는 실제로 어떤가요?
-        subtitle: 사용 가능하지만 여러 "문제"가 있는 시스템 | ✨ 작동하며, 때로는 상당히 인상적입니다 ✨
+    reality:
+      title: OpenClaw는 실제로 어떤가요?
+      subtitle: 사용 가능하지만 여러 "문제"가 있는 시스템 | ✨ 작동하며, 때로는 상당히 인상적입니다 ✨
       issues:
         - title: 성능이 매우 낮음
           icon: Zap
@@ -161,76 +161,76 @@ capabilities:
   clawProducts:
     - name: NanoBot
       desc: 초경량, 4000줄 Python 코드
-      tags: ["100MB RAM", "홍콩대학"]
+      tags: ['100MB RAM', '홍콩대학']
     - name: ZeroClaw
       desc: Rust 네이티브, 극한 성능
-      tags: ["3.4MB", "10ms 시작"]
+      tags: ['3.4MB', '10ms 시작']
     - name: PicoClaw
       desc: Go 언어, 초저비용
-      tags: ["$10 하드웨어", "10MB RAM"]
+      tags: ['$10 하드웨어', '10MB RAM']
     - name: NanoClaw
       desc: Docker 컨테이너 격리
-      tags: ["500줄 TS", "보안 우선"]
+      tags: ['500줄 TS', '보안 우선']
     - name: IronClaw
       desc: Rust 보안 아키텍처
-      tags: ["5층 방어", "암호화 관리"]
+      tags: ['5층 방어', '암호화 관리']
     - name: LobsterAI
       desc: NetEase Youdao 올인원 어시스턴트
-      tags: ["24/7 실행", "멀티 플랫폼"]
+      tags: ['24/7 실행', '멀티 플랫폼']
     - name: TinyClaw
       desc: 미니멀리즘
-      tags: ["400줄 코드", "의존성 없음"]
+      tags: ['400줄 코드', '의존성 없음']
     - name: Moltis
       desc: 단일 바이너리 배포
-      tags: ["Rust", "로컬 우선"]
+      tags: ['Rust', '로컬 우선']
     - name: CoPaw
       desc: 알리바바 오픈소스 플랫폼
-      tags: ["로컬 LLM", "AgentScope"]
+      tags: ['로컬 LLM', 'AgentScope']
     - name: ZeptoClaw
       desc: 프로덕션급 Rust 구현
-      tags: ["6MB", "3100+ 테스트"]
+      tags: ['6MB', '3100+ 테스트']
     - name: EasyClaw
       desc: 구성 없는 호스팅 서비스
-      tags: ["원클릭 배포", "$49/월"]
+      tags: ['원클릭 배포', '$49/월']
     - name: KimiClaw
       desc: Moonshot AI
-      tags: ["5000+ 스킬", "40GB 스토리지"]
+      tags: ['5000+ 스킬', '40GB 스토리지']
     - name: NullClaw
       desc: Zig 언어 생태계
-      tags: ["3.4MB", "모듈식"]
+      tags: ['3.4MB', '모듈식']
     - name: MaxClaw
       desc: MiniMax 클라우드 서비스
-      tags: ["M2.5 모델", "10초 배포"]
+      tags: ['M2.5 모델', '10초 배포']
     - name: QClaw
       desc: Tencent 원클릭 설치 프로그램
-      tags: ["WeChat 직접 연결", "진입 장벽 없음"]
+      tags: ['WeChat 직접 연결', '진입 장벽 없음']
   timeline24Hours:
-    - time: "06:30"
+    - time: '06:30'
       task: 아침 알림
       desc: 어제 요약, 오늘 계획, 브리핑 생성
-    - time: "09:00"
+    - time: '09:00'
       task: 이메일 정리
       desc: 이메일 자동 분류, 중요 항목 표시
-    - time: "11:00"
+    - time: '11:00'
       task: 회의 준비
       desc: 회의 자료 정리, 의제 생성
-    - time: "12:30"
+    - time: '12:30'
       task: 점심 주문
       desc: 취향에 따라 레스토랑 추천, 직접 주문 및 결제
-    - time: "14:30"
+    - time: '14:30'
       task: 중요 고객 이메일
       desc: 중요 고객 메시지 감지, 우선 처리
       type: triggered
-    - time: "16:30"
+    - time: '16:30'
       task: 회의록 기록
       desc: 오후 회의의 핵심 내용 정리
-    - time: "18:30"
+    - time: '18:30'
       task: 일일 보고서
       desc: 오늘 완료한 작업 요약
-    - time: "20:30"
+    - time: '20:30'
       task: 내일 일정
       desc: 내일 회의 및 할 일 알림
-    - time: "22:30"
+    - time: '22:30'
       task: 잘 자요
       desc: 알람 설정, 업무 알림 비활성화
   capabilityTags:
@@ -262,18 +262,18 @@ capabilities:
     - 농담하기
     - 생일 케이크 주문
   features:
-    - title: "다중 채널 통신: 상호작용 혁신"
-      desc: "혁신점: 새로운 도구를 배울 필요 없이 IM 앱에서 직접 AI를 제어합니다. 여러 IM 플랫폼을 지원하며, 휴대폰으로 직접 대화할 수 있습니다"
-    - title: "능력 경계: 풍부한 도구 액세스"
+    - title: '다중 채널 통신: 상호작용 혁신'
+      desc: '혁신점: 새로운 도구를 배울 필요 없이 IM 앱에서 직접 AI를 제어합니다. 여러 IM 플랫폼을 지원하며, 휴대폰으로 직접 대화할 수 있습니다'
+    - title: '능력 경계: 풍부한 도구 액세스'
       desc: >-
         브라우저 자동화, 시스템 명령 실행, 파일 시스템 작업,
         카메라/화면 녹화, 알림, 위치 서비스
-    - title: "연중무휴: 자율 행동"
-      desc: "AI가 사람의 개입 없이 자율적으로 작업합니다. 예약된 작업이 자동으로 실행되고, 외부 이벤트에 능동적으로 응답하며, 백그라운드에서 지속적으로 실행되는 진정한 24시간 지능형 어시스턴트"
-    - title: "가재 키우기: 자체 반복"
-      desc: "AI가 자율적으로 코드를 수정하고, 새로운 스킬을 생성하며, 시스템 구성을 최적화합니다. 3계층 메모리 시스템(작업 메모리, 단기 메모리, 장기 메모리)을 통해 AI가 사용자의 선호도와 습관을 진정으로 기억하여 개인화된 지능형 비서를 형성합니다. ClawHub를 통해 커뮤니티 스킬을 획득하고 지속적으로 학습하고 진화합니다"
-    - title: "추가 기능, 또는 다른 Claw"
-      desc: "MCP 프로토콜 생태계(USB와 같은 표준화된 인터페이스로 방대한 서비스 연결), 10,700개 이상의 커뮤니티 스킬, 로컬 우선 아키텍처, 5계층 보안 방어, 멀티 에이전트 시스템, 자체 호스팅 배포 등"
+    - title: '연중무휴: 자율 행동'
+      desc: 'AI가 사람의 개입 없이 자율적으로 작업합니다. 예약된 작업이 자동으로 실행되고, 외부 이벤트에 능동적으로 응답하며, 백그라운드에서 지속적으로 실행되는 진정한 24시간 지능형 어시스턴트'
+    - title: '가재 키우기: 자체 반복'
+      desc: 'AI가 자율적으로 코드를 수정하고, 새로운 스킬을 생성하며, 시스템 구성을 최적화합니다. 3계층 메모리 시스템(작업 메모리, 단기 메모리, 장기 메모리)을 통해 AI가 사용자의 선호도와 습관을 진정으로 기억하여 개인화된 지능형 비서를 형성합니다. ClawHub를 통해 커뮤니티 스킬을 획득하고 지속적으로 학습하고 진화합니다'
+    - title: '추가 기능, 또는 다른 Claw'
+      desc: 'MCP 프로토콜 생태계(USB와 같은 표준화된 인터페이스로 방대한 서비스 연결), 10,700개 이상의 커뮤니티 스킬, 로컬 우선 아키텍처, 5계층 보안 방어, 멀티 에이전트 시스템, 자체 호스팅 배포 등'
 
 principle:
   title: OpenClaw 원리
@@ -282,7 +282,7 @@ principle:
     - title: 시스템 아키텍처 개요
       desc: OpenClaw는 장기 실행 런타임 시스템으로, 로컬 우선, 자체 호스팅 아키텍처로 설계되었습니다.
       components:
-        label: "핵심 구성 요소에는 다음이 포함됩니다:"
+        label: '핵심 구성 요소에는 다음이 포함됩니다:'
         items:
           - name: Gateway
             desc: 제어 평면
@@ -292,29 +292,29 @@ principle:
             desc: 채널 어댑터
           - name: Workspace
             desc: 작업 공간 시스템
-      color: "#20bf6b"
+      color: '#20bf6b'
     - title: Agent 실행 루프
       desc: >-
         Agent는 연속된 상태 실행 사이클을 구현합니다:
         세션 분석 → 컨텍스트 조립 → 모델 호출 → 도구 실행 → 상태 저장 → 루프 계속.
         이 설계로 지속적인 학습과 기억이 가능합니다.
-      color: "#9775fa"
+      color: '#9775fa'
   architecture:
     philosophy:
-      title: "핵심 설계 철학: Bash is All You Need"
-      intro: "Anthropic 엔지니어 Thariq Shihipar가 《Claude Agent SDK Workshop》에서 제시한 혁명적 관점: Agent를 위해 수천 개의 맞춤형 API를 정의하는 대신, Unix 시대의 두 가지 원시 능력을 부여합니다."
+      title: '핵심 설계 철학: Bash is All You Need'
+      intro: 'Anthropic 엔지니어 Thariq Shihipar가 《Claude Agent SDK Workshop》에서 제시한 혁명적 관점: Agent를 위해 수천 개의 맞춤형 API를 정의하는 대신, Unix 시대의 두 가지 원시 능력을 부여합니다.'
       bash:
         title: Bash（궁극의 접착제）
-        composability: "조합성: 파이프를 통해 수백만 개의 성숙한 소프트웨어 연결"
-        discoverability: "발견성: 인간처럼 환경 탐색"
+        composability: '조합성: 파이프를 통해 수백만 개의 성숙한 소프트웨어 연결'
+        discoverability: '발견성: 인간처럼 환경 탐색'
       filesystem:
         title: 파일 시스템（장기 기억）
-        context: "컨텍스트 엔지니어링: 초장기 작업 관리 솔루션"
-        persistence: "상태 지속성: 점진적 공개, 대규모 프로젝트 처리"
-      quote: "Agent에게 컴퓨터 터미널을 주면, 인간처럼 디지털 세계의 문제를 해결할 수 있는 보편적 능력을 갖게 됩니다."
+        context: '컨텍스트 엔지니어링: 초장기 작업 관리 솔루션'
+        persistence: '상태 지속성: 점진적 공개, 대규모 프로젝트 처리'
+      quote: 'Agent에게 컴퓨터 터미널을 주면, 인간처럼 디지털 세계의 문제를 해결할 수 있는 보편적 능력을 갖게 됩니다.'
       author: Thariq Shihipar
     paradigm:
-      title: "패러다임 전환: 도구 호출에서 OS 레벨 자율성으로"
+      title: '패러다임 전환: 도구 호출에서 OS 레벨 자율성으로'
       dimensions:
         flexibility: 유연성
         security: 보안
@@ -341,136 +341,136 @@ ai-agent-and-us:
   title: AI Agent와 우리
   subtitle: AI에 대해 이야기할 때 우리는 무엇에 대해 이야기하는가
   topics:
-    - title: "비트겐슈타인: 언어의 경계"
+    - title: '비트겐슈타인: 언어의 경계'
       author: Ludwig Wittgenstein
       quote: 내 언어의 한계는 내 세계의 한계를 의미합니다. 언어 게임은 의미가 생성되는 방식을 결정합니다. AI가 언어를 이해하게 할 때 우리는 세계를 이해하게 하는 것일까요?
-      tags: ["철학", "언어"]
-      link: "https://www.gutenberg.org/ebooks/5740"
-    
+      tags: ['철학', '언어']
+      link: 'https://www.gutenberg.org/ebooks/5740'
+
     - title: 소요유
       author: 장자
       quote: 대붕은 바람을 타고 구만 리를 날아오릅니다. 인간이 AI를 빌려 도구를 잘 활용하고 보이지 않는 바람을 타면, 우리도 높이 날아오를 수 있을까요? 이러한 인간-AI 협업이 바로 현대의 소요유일지도 모릅니다.
-      tags: ["철학", "인간-AI 협업"]
-    
+      tags: ['철학', '인간-AI 협업']
+
     - title: 제1원리
       author: Elon Musk / 고대 그리스 철학
       quote: 문제를 가장 기본적인 수준으로 돌아가 생각하세요. 하지만 AI 시대에 제1원리를 이해하지 못한 채 AI를 사용하면 표면에만 머물 수밖에 없습니다. 그런데—우리는 정말 본질을 파악해야 할까요? 아니면 표면으로 충분할까요?
-      tags: ["사고 방법", "철학"]
-    
+      tags: ['사고 방법', '철학']
+
     - title: 광전 효과와 양자 도약
       author: Albert Einstein
-      year: "1905"
+      year: '1905'
       quote: 광전 효과는 빛의 주파수가 전자 방출 여부를 결정하고 강도는 수량만 결정한다고 가르칩니다. 인간의 능력은 주파수이고 AI는 강도입니다. 충분한 주파수(기본 능력, 사고력)가 없으면 인간이 AI를 제약하는 병목이 될 수 있습니다.
-      tags: ["물리학 비유", "인간-AI 협업"]
-    
+      tags: ['물리학 비유', '인간-AI 협업']
+
     - title: 최소 제곱법과 GPT
       author: 수학 원리
       quote: 최소 제곱법은 최적 적합 곡선을 찾고, GPT는 가능도를 최대화하여 최적의 다음 단어를 찾습니다. 둘 다 본질적으로 고차원 공간에서 최적의 해를 찾는 것이지만 GPT의 공간은 전례 없는 규모입니다.
-      tags: ["수학", "기술 원리"]
-    
-    - title: "엔트로피와 지능: 지능은 압축"
+      tags: ['수학', '기술 원리']
+
+    - title: '엔트로피와 지능: 지능은 압축'
       author: 정보 이론 관점
       quote: Shannon의 정보 엔트로피 이론은 지능이 본질적으로 세계의 압축임을 시사합니다. 언어 모델은 데이터 분포를 학습하여 정보를 압축하며, 예측 능력이 강할수록 압축률이 높고 지능 수준이 높습니다.
-      tags: ["정보 이론", "지능의 본질"]
-      link: "https://arxiv.org/abs/2407.06645"
-    
-    - title: "마틴 파울러: AI가 소프트웨어를 재편"
+      tags: ['정보 이론', '지능의 본질']
+      link: 'https://arxiv.org/abs/2407.06645'
+
+    - title: '마틴 파울러: AI가 소프트웨어를 재편'
       author: Martin Fowler
-      year: "2024"
+      year: '2024'
       quote: AI는 요구사항 수집, 설계, 코딩, 테스트에서 배포에 이르기까지 소프트웨어 개발의 모든 측면을 변화시키고 있습니다. 소프트웨어 공학의 모범 사례를 재고하고 AI 네이티브 개발 패러다임을 수용해야 합니다.
-      tags: ["소프트웨어 공학", "산업 변혁"]
-    
+      tags: ['소프트웨어 공학', '산업 변혁']
+
     - title: UI는 PreAI
       author: 업계 관점
-      year: "2025"
+      year: '2025'
       quote: 전통적인 UI는 인간을 위해 설계되었지만 AI 시대에는 자연어가 최고의 인터페이스일 수 있습니다.
-      tags: ["UI/UX", "트렌드"]
-    
-    - title: "Anthropic: AI의 노동 시장 영향"
+      tags: ['UI/UX', '트렌드']
+
+    - title: 'Anthropic: AI의 노동 시장 영향'
       author: Anthropic Research
-      year: "2024"
+      year: '2024'
       quote: 고용에 대한 AI의 실제 영향은 여전히 이론적 잠재력보다 훨씬 낮으며, 아직 체계적인 실업률 상승을 초래하지 않았습니다.
-      tags: ["노동력", "산업"]
-      link: "https://www.anthropic.com/research/labor-market-impacts"
-    
+      tags: ['노동력', '산업']
+      link: 'https://www.anthropic.com/research/labor-market-impacts'
+
     - title: 큰 일이 일어나고 있다
       author: Matt Shumer
-      year: "2026-02-09"
+      year: '2026-02-09'
       quote: 2026년 2월 9일, 6년 경력의 AI 업계 종사자가 썼습니다 - GPT-4에서 Claude Sonnet 4.5로, 단일 모델에서 다중 에이전트 시스템으로, 도구 호출에서 자율 행동으로. 여러 신호가 우리가 AI 능력 도약의 전야에 있음을 나타냅니다. 이것은 예측이 아니라 이미 일어나고 있는 사실입니다.
-      tags: ["트렌드", "예측"]
-      link: "https://shumer.dev/something-big-is-happening"
-    
+      tags: ['트렌드', '예측']
+      link: 'https://shumer.dev/something-big-is-happening'
+
     - title: 쓴 교훈
       author: Rich Sutton
-      year: "2019"
+      year: '2019'
       quote: 70년의 AI 연구는 계산을 활용하는 일반적인 방법이 결국 인간 지식을 이긴다는 것을 가르쳐줍니다. 인간 지식을 시스템에 하드코딩하려고 하지 말고 검색과 학습을 통해 지식을 발견하는 일반적인 방법을 구축해야 합니다.
-      tags: ["방법론", "AI 역사"]
-      link: "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
-    
+      tags: ['방법론', 'AI 역사']
+      link: 'http://www.incompleteideas.net/IncIdeas/BitterLesson.html'
+
     - title: 언어 모델은 적은 샷 학습자
       author: OpenAI (GPT-3 논문)
-      year: "2020"
+      year: '2020'
       quote: 대규모 언어 모델은 놀라운 적은 샷 학습 능력을 보여줍니다. 그래디언트 업데이트나 미세 조정 없이도 텍스트 상호 작용과 예제만으로 다양한 작업을 완료할 수 있습니다.
-      tags: ["기술 통찰", "적은 샷 학습"]
-      link: "https://arxiv.org/abs/2005.14165"
-    
+      tags: ['기술 통찰', '적은 샷 학습']
+      link: 'https://arxiv.org/abs/2005.14165'
+
     - title: 추상 누출 법칙
       author: Joel Spolsky
-      year: "2002"
+      year: '2002'
       quote: 모든 중요한 추상화 메커니즘은 어느 정도 누출됩니다. LLM을 "지능"의 추상화로 취급할 때 그 누출은 무엇일까요? 우리가 이 추상화에 과도하게 의존하고 있을까요? 추상화가 누출될 때—AI가 실패하거나 환각을 보이거나 통제를 잃을 때—우리는 어떻게 해야 할까요?
-      tags: ["소프트웨어 공학", "추상화"]
-      link: "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"
-    
+      tags: ['소프트웨어 공학', '추상화']
+      link: 'https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/'
+
     - title: 토큰과 화폐
       author: 개념 비유
       quote: 토큰은 AI 세계의 기본 측정 단위입니다. 화폐 시스템이 가치를 정량화하여 경제 운영을 가능하게 하는 것처럼, 토큰은 정보를 정량화하여 AI 경제학을 구축합니다 - API 호출은 토큰으로 청구되고 모델 능력은 토큰 창으로 측정되며, 토큰은 컴퓨팅, 데이터, 지능을 연결하는 가치 앵커가 됩니다.
-      tags: ["경제학", "개념"]
-    
-    - title: "앤드류 응: Agentic Workflow는 엄청난 가치"
+      tags: ['경제학', '개념']
+
+    - title: '앤드류 응: Agentic Workflow는 엄청난 가치'
       author: Andrew Ng
-      year: "2024"
+      year: '2024'
       quote: LLM은 끝이 아니며 Agentic Workflow가 핵심입니다. AI가 인간처럼 반복적으로 작업하도록 하는 것—생각하고, 행동하고, 성찰하고, 개선하는 것—AI의 효과를 여러 배로 높일 수 있습니다.
-      tags: ["워크플로", "에이전트"]
-      link: "https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/"
-    
+      tags: ['워크플로', '에이전트']
+      link: 'https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/'
+
     - title: Bash만 있으면 충분하다
       author: Thariq Shihipar (Anthropic)
-      year: "2025"
+      year: '2025'
       quote: Agent를 위해 수천 개의 전용 API를 설계하는 대신, 터미널 접근 권한을 부여하는 것이 더 효과적입니다. Bash와 파일 시스템의 조합은 완전한 범용 컴퓨팅 기능을 구성합니다. 이는 OpenClaw 아키텍처의 핵심 철학이자, 현대 에이전트 프로그래밍 도구들이 TUI(터미널 사용자 인터페이스)를 광범위하게 채택하는 근본적인 이유일 수 있습니다.
-      tags: ["기술 아키텍처", "에이전트"]
-      link: "https://www.reddit.com/r/ClaudeAI/comments/1q4yig7/claude_agent_sdk_full_workshop_thariq_shihipar/"
-    
-    - title: "Anthropic 개발 프로세스: 더 이상 PRD 필요 없음"
+      tags: ['기술 아키텍처', '에이전트']
+      link: 'https://www.reddit.com/r/ClaudeAI/comments/1q4yig7/claude_agent_sdk_full_workshop_thariq_shihipar/'
+
+    - title: 'Anthropic 개발 프로세스: 더 이상 PRD 필요 없음'
       author: Anthropic Team
-      year: "2025"
+      year: '2025'
       quote: 우리 엔지니어링 팀은 더 이상 전통적인 PRD 문서를 작성하지 않습니다. Claude와 직접 대화하고 요구 사항을 설명하고 설계를 반복하고 코드를 생성합니다. 아이디어에서 프로토타입까지의 시간이 10배 줄었습니다.
-      tags: ["개발 프로세스", "산업 실무"]
-      link: "https://www.youtube.com/watch?v=julbw1JuAz0"
-    
-    - title: "TDD: 테스트 주도 개발"
+      tags: ['개발 프로세스', '산업 실무']
+      link: 'https://www.youtube.com/watch?v=julbw1JuAz0'
+
+    - title: 'TDD: 테스트 주도 개발'
       author: 소프트웨어 공학 방법론
       quote: AI 시대의 TDD는 본질로 회귀—프로세스가 아닌 결과를 설명합니다. 테스트는 사양이 되고, 선언은 구현이 됩니다. 콩을 뿌려 군사를 만들듯, 말로 실현하듯.
-      tags: ["개발 방법론", "TDD"]
-    
-    - title: "AI 중심: 데이터 + 워크플로"
+      tags: ['개발 방법론', 'TDD']
+
+    - title: 'AI 중심: 데이터 + 워크플로'
       author: 업계 트렌드
-      year: "2025"
+      year: '2025'
       quote: 데이터 중심에서 AI 중심으로의 전환. AI를 기존 시스템에 임베드하는 것이 아니라 AI를 중심으로 데이터 아키텍처와 워크플로를 재설계하는 것입니다. 이것은 패러다임 전환입니다.
-      tags: ["아키텍처", "패러다임 전환"]
-    
+      tags: ['아키텍처', '패러다임 전환']
+
     - title: 100조 토큰 데이터 기반 AI 현황 보고서
       author: OpenRouter & a16z
-      year: "2025-12"
+      year: '2025-12'
       quote: 롤플레이(Roleplay)와 프로그래밍은 현재 AI 구현에서 가장 핵심적이고 점착성이 높은 두 가지 실전 영역입니다. 프로그래밍 토큰 비율은 2025년 초 11%에서 50% 이상으로 급증했습니다.
-      tags: ["데이터", "현황 분석"]
-      link: "https://openrouter.ai/state-of-ai"
-    
+      tags: ['데이터', '현황 분석']
+      link: 'https://openrouter.ai/state-of-ai'
+
     - title: 2028 글로벌 지능 위기
       author: Citrini Research (James van Geelen & Alap Shah)
-      year: "2026-02-22"
+      year: '2026-02-22'
       quote: 2026년 2월 22일, Citrini Research 보고서 - AI가 현재 속도로 발전한다면 2028년 글로벌 "지능 위기"가 나타날 수 있습니다. 실업률 10.2%, S&P 500 38% 폭락 전망. 대규모 지식 근로 자동화, 사회 구조 재편, 인간이 일과 가치를 재정의해야 합니다.
-      tags: ["미래", "사회적 영향"]
-      link: "https://www.citriniresearch.com/p/2028gic"
+      tags: ['미래', '사회적 영향']
+      link: 'https://www.citriniresearch.com/p/2028gic'
 
 ending:
   title: 감사합니다

@@ -9,7 +9,7 @@ nav:
 
 puzzle:
   title: The Birth of OpenClaw
-  subtitle: ""
+  subtitle: ''
   timelineIntro: Recent events
   timelineTitle:
     alexnet: AlexNet
@@ -59,37 +59,37 @@ puzzle:
       4:
         title: LLM Era
         desc: Transformer architecture and ChatGPT launch, AI evolves from perception to generation
-    agent:
-      title: The Dawn of the (Truly Usable) Agent Era
-      intro: |-
-        The timing is right, it's fate and destiny, the moment creates the hero. Even without the lobster, other "arthropods" would likely emerge.
-      openclaw:
-        title: "OpenClaw: The Puzzle"
+  agent:
+    title: The Dawn of the (Truly Usable) Agent Era
+    intro: |-
+      The timing is right, it's fate and destiny, the moment creates the hero. Even without the lobster, other "arthropods" would likely emerge.
+    openclaw:
+      title: 'OpenClaw: The Puzzle'
       pieces:
         - number: First Piece
           title: Powerful Language Model
           content: Claude Sonnet 4.5+
           short: LLM ✨
-          color: "#ff6b6b"
+          color: '#ff6b6b'
         - number: Second Piece
           title: Basic Tools
           content: Bash
           short: Bash
-          color: "#ffa502"
+          color: '#ffa502'
         - number: Third Piece
           title: MCP Protocol
           content: Model Context Protocol
           short: MCP
-          color: "#20bf6b"
+          color: '#20bf6b'
         - number: Fourth Piece
           title: Skills Ecosystem
           content: Skills Ecosystem
           short: Skills
-          color: "#06b6d4"
+          color: '#06b6d4'
       result: When these four critical pieces click together perfectly, OpenClaw emerges, and the era of truly usable AI agents begins.
-      reality:
-        title: What's OpenClaw Really Like?
-        subtitle: A usable system with a bunch of "issues" | ✨ It works, sometimes remarkably well ✨
+    reality:
+      title: What's OpenClaw Really Like?
+      subtitle: A usable system with a bunch of "issues" | ✨ It works, sometimes remarkably well ✨
       issues:
         - title: Poor Performance
           icon: Zap
@@ -164,76 +164,76 @@ capabilities:
   clawProducts:
     - name: NanoBot
       desc: Ultra-lightweight, 4000 lines of Python
-      tags: ["100MB RAM", "HKU"]
+      tags: ['100MB RAM', 'HKU']
     - name: ZeroClaw
       desc: Rust native, ultimate performance
-      tags: ["3.4MB", "10ms startup"]
+      tags: ['3.4MB', '10ms startup']
     - name: PicoClaw
       desc: Go language, ultra-low cost
-      tags: ["$10 hardware", "10MB RAM"]
+      tags: ['$10 hardware', '10MB RAM']
     - name: NanoClaw
       desc: Docker container isolation
-      tags: ["500 lines TS", "Security first"]
+      tags: ['500 lines TS', 'Security first']
     - name: IronClaw
       desc: Rust security architecture
-      tags: ["5-layer defense", "Encryption"]
+      tags: ['5-layer defense', 'Encryption']
     - name: LobsterAI
       desc: NetEase Youdao all-in-one assistant
-      tags: ["24/7 running", "Multi-platform"]
+      tags: ['24/7 running', 'Multi-platform']
     - name: TinyClaw
       desc: Minimalism
-      tags: ["400 lines", "Zero deps"]
+      tags: ['400 lines', 'Zero deps']
     - name: Moltis
       desc: Single binary deployment
-      tags: ["Rust", "Local-first"]
+      tags: ['Rust', 'Local-first']
     - name: CoPaw
       desc: Alibaba open source platform
-      tags: ["Local LLM", "AgentScope"]
+      tags: ['Local LLM', 'AgentScope']
     - name: ZeptoClaw
       desc: Production-grade Rust
-      tags: ["6MB", "3100+ tests"]
+      tags: ['6MB', '3100+ tests']
     - name: EasyClaw
       desc: Zero-config hosted service
-      tags: ["One-click deploy", "$49/mo"]
+      tags: ['One-click deploy', '$49/mo']
     - name: KimiClaw
       desc: Moonshot AI
-      tags: ["5000+ skills", "40GB storage"]
+      tags: ['5000+ skills', '40GB storage']
     - name: NullClaw
       desc: Zig language ecosystem
-      tags: ["3.4MB", "Modular"]
+      tags: ['3.4MB', 'Modular']
     - name: MaxClaw
       desc: MiniMax cloud service
-      tags: ["M2.5 model", "10s deploy"]
+      tags: ['M2.5 model', '10s deploy']
     - name: QClaw
       desc: Tencent one-click installer
-      tags: ["WeChat direct", "Zero threshold"]
+      tags: ['WeChat direct', 'Zero threshold']
   timeline24Hours:
-    - time: "06:30"
+    - time: '06:30'
       task: Morning Reminder
       desc: Summarize yesterday, plan today, generate briefing
-    - time: "09:00"
+    - time: '09:00'
       task: Organize Emails
       desc: Auto-categorize emails, mark important items
-    - time: "11:00"
+    - time: '11:00'
       task: Meeting Prep
       desc: Organize meeting materials, generate agenda
-    - time: "12:30"
+    - time: '12:30'
       task: Order Lunch
       desc: Recommend restaurants based on preferences, order and pay directly
-    - time: "14:30"
+    - time: '14:30'
       task: Important Client Email
       desc: Detected important client message, prioritize handling
       type: triggered
-    - time: "16:30"
+    - time: '16:30'
       task: Meeting Notes
       desc: Organize key content from afternoon meeting
-    - time: "18:30"
+    - time: '18:30'
       task: Daily Report
       desc: Summarize today's completed work
-    - time: "20:30"
+    - time: '20:30'
       task: Tomorrow's Schedule
       desc: Remind about tomorrow's meetings and tasks
-    - time: "22:30"
+    - time: '22:30'
       task: Good Night
       desc: Set alarm, disable work notifications
   capabilityTags:
@@ -265,16 +265,16 @@ capabilities:
     - Tell jokes
     - Order birthday cake
   features:
-    - title: "Multi-Channel Communication: Interaction Innovation"
-      desc: "Innovation: Control AI directly in IM apps without learning new tools. Supports multiple IM platforms, chat directly from your phone"
-    - title: "Capability Boundaries: Extensive Tool Access"
-      desc: "Browser automation, system command execution, file system operations, camera/screen recording, notifications, location services"
-    - title: "Always On: Autonomous Action"
-      desc: "AI works autonomously without human intervention. Scheduled tasks run automatically, external events trigger proactive responses, continuous background operation—a true round-the-clock intelligent assistant"
-    - title: "Raising the Lobster: Self-Evolution"
-      desc: "AI autonomously modifies code, creates new skills, and optimizes system configurations. Three-layer memory system (working memory, short-term, long-term) enables AI to truly remember your preferences and habits, forming a personalized intelligent assistant. Acquires community skills through ClawHub for continuous learning and evolution"
-    - title: "Additional Features, or Other Claws"
-      desc: "MCP protocol ecosystem (USB-like standardized interface connecting vast services), 10,700+ community skills, local-first architecture, five-layer security defense, multi-agent system, self-hosted deployment, and more"
+    - title: 'Multi-Channel Communication: Interaction Innovation'
+      desc: 'Innovation: Control AI directly in IM apps without learning new tools. Supports multiple IM platforms, chat directly from your phone'
+    - title: 'Capability Boundaries: Extensive Tool Access'
+      desc: 'Browser automation, system command execution, file system operations, camera/screen recording, notifications, location services'
+    - title: 'Always On: Autonomous Action'
+      desc: 'AI works autonomously without human intervention. Scheduled tasks run automatically, external events trigger proactive responses, continuous background operation—a true round-the-clock intelligent assistant'
+    - title: 'Raising the Lobster: Self-Evolution'
+      desc: 'AI autonomously modifies code, creates new skills, and optimizes system configurations. Three-layer memory system (working memory, short-term, long-term) enables AI to truly remember your preferences and habits, forming a personalized intelligent assistant. Acquires community skills through ClawHub for continuous learning and evolution'
+    - title: 'Additional Features, or Other Claws'
+      desc: 'MCP protocol ecosystem (USB-like standardized interface connecting vast services), 10,700+ community skills, local-first architecture, five-layer security defense, multi-agent system, self-hosted deployment, and more'
 
 principle:
   title: OpenClaw Principles
@@ -283,7 +283,7 @@ principle:
     - title: System Architecture Overview
       desc: OpenClaw is a long-running runtime system with a local-first, self-hosted architecture.
       components:
-        label: "Core components include:"
+        label: 'Core components include:'
         items:
           - name: Gateway
             desc: Control Plane
@@ -293,26 +293,26 @@ principle:
             desc: Channel Adapters
           - name: Workspace
             desc: Workspace System
-      color: "#20bf6b"
+      color: '#20bf6b'
     - title: Agent Execution Loop
-      desc: "Agent implements a continuous stateful execution cycle: parse session → assemble context → invoke model → execute tools → persist state → loop. This design enables continuous learning and memory."
-      color: "#9775fa"
+      desc: 'Agent implements a continuous stateful execution cycle: parse session → assemble context → invoke model → execute tools → persist state → loop. This design enables continuous learning and memory.'
+      color: '#9775fa'
   architecture:
     philosophy:
-      title: "Core Design Philosophy: Bash is All You Need"
+      title: 'Core Design Philosophy: Bash is All You Need'
       intro: "Revolutionary insight from Anthropic engineer Thariq Shihipar in 'Claude Agent SDK Workshop': Instead of defining thousands of custom APIs for Agents, give them two primitive Unix-era capabilities."
       bash:
         title: Bash (Ultimate Glue)
-        composability: "Composability: Connect millions of mature software via pipes"
-        discoverability: "Discoverability: Explore environment like humans"
+        composability: 'Composability: Connect millions of mature software via pipes'
+        discoverability: 'Discoverability: Explore environment like humans'
       filesystem:
         title: File System (Long-term Memory)
-        context: "Context Engineering: Solution for ultra-long tasks"
-        persistence: "State Persistence: Progressive disclosure for massive projects"
-      quote: "Give an Agent a computer terminal, and it has the universal ability to solve digital world problems like humans."
+        context: 'Context Engineering: Solution for ultra-long tasks'
+        persistence: 'State Persistence: Progressive disclosure for massive projects'
+      quote: 'Give an Agent a computer terminal, and it has the universal ability to solve digital world problems like humans.'
       author: Thariq Shihipar
     paradigm:
-      title: "Paradigm Shift: From Tool Calling to OS-level Autonomy"
+      title: 'Paradigm Shift: From Tool Calling to OS-level Autonomy'
       dimensions:
         flexibility: Flexibility
         security: Security
@@ -339,136 +339,136 @@ ai-agent-and-us:
   title: AI Agent and Us
   subtitle: What do we talk about when we talk about AI
   topics:
-    - title: "Wittgenstein: The Limits of Language"
+    - title: 'Wittgenstein: The Limits of Language'
       author: Ludwig Wittgenstein
       quote: The limits of my language mean the limits of my world. Language games determine how meaning is produced. When we make AI understand language, are we making it understand the world?
-      tags: ["Philosophy", "Language"]
-      link: "https://www.gutenberg.org/ebooks/5740"
-    
+      tags: ['Philosophy', 'Language']
+      link: 'https://www.gutenberg.org/ebooks/5740'
+
     - title: Zhuangzi's Free and Easy Wandering
       author: Zhuangzi
       quote: The great Peng bird rises ninety thousand li on the wind. When humans harness AI - skillfully borrowing external tools, riding the formless wind - can we also soar upward? This human-AI collaboration may be the free wandering of our age.
-      tags: ["Philosophy", "Human-AI Collaboration"]
-    
+      tags: ['Philosophy', 'Human-AI Collaboration']
+
     - title: First Principles Thinking
       author: Elon Musk / Ancient Greek Philosophy
       quote: Think about problems at the most fundamental level. But in the AI age, when we use AI to solve problems without understanding first principles, we can only stay on the surface. Yet—do we really need to grasp the essence? Or is the surface enough?
-      tags: ["Thinking Method", "Philosophy"]
-    
+      tags: ['Thinking Method', 'Philosophy']
+
     - title: Photoelectric Effect and Quantum Leap
       author: Albert Einstein
-      year: "1905"
+      year: '1905'
       quote: The photoelectric effect teaches us that light's frequency determines whether electrons are emitted, while intensity only determines quantity. Human capability is frequency, AI is intensity. Without sufficient frequency (fundamental skills, thinking ability), humans may become the constraint that holds AI back.
-      tags: ["Physics Analogy", "Human-AI Collaboration"]
-    
+      tags: ['Physics Analogy', 'Human-AI Collaboration']
+
     - title: Least Squares and GPT
       author: Mathematical Principle
       quote: Least squares finds the best-fit curve; GPT finds the best next word by maximizing likelihood. Both are essentially searching for optimal solutions in high-dimensional spaces, except GPT's space has unprecedented scale.
-      tags: ["Mathematics", "Technical Principle"]
-    
-    - title: "Entropy and Intelligence: Intelligence as Compression"
+      tags: ['Mathematics', 'Technical Principle']
+
+    - title: 'Entropy and Intelligence: Intelligence as Compression'
       author: Information Theory Perspective
       quote: Shannon's information entropy theory suggests intelligence is essentially compression of the world. Language models compress information by learning data distributions - stronger prediction ability means higher compression rate and higher intelligence.
-      tags: ["Information Theory", "Nature of Intelligence"]
-      link: "https://arxiv.org/abs/2407.06645"
-    
-    - title: "Martin Fowler: AI Reshaping Software"
+      tags: ['Information Theory', 'Nature of Intelligence']
+      link: 'https://arxiv.org/abs/2407.06645'
+
+    - title: 'Martin Fowler: AI Reshaping Software'
       author: Martin Fowler
-      year: "2024"
+      year: '2024'
       quote: AI is changing every aspect of software development from requirements gathering, design, coding, testing to deployment. We need to rethink software engineering best practices and embrace AI-native development paradigms.
-      tags: ["Software Engineering", "Industry Transformation"]
-    
+      tags: ['Software Engineering', 'Industry Transformation']
+
     - title: UI is PreAI
       author: Industry Perspective
-      year: "2025"
+      year: '2025'
       quote: Traditional UI is designed for humans, but in the AI era, natural language may be the best interface.
-      tags: ["UI/UX", "Trend"]
-    
+      tags: ['UI/UX', 'Trend']
+
     - title: "Anthropic: AI's Impact on Labor Markets"
       author: Anthropic Research
-      year: "2024"
+      year: '2024'
       quote: The actual impact of AI on employment remains far below its theoretical potential and has not yet led to systemic increases in unemployment rates.
-      tags: ["Labor", "Industry"]
-      link: "https://www.anthropic.com/research/labor-market-impacts"
-    
+      tags: ['Labor', 'Industry']
+      link: 'https://www.anthropic.com/research/labor-market-impacts'
+
     - title: Something Big Is Happening
       author: Matt Shumer
-      year: "2026-02-09"
+      year: '2026-02-09'
       quote: On February 9, 2026, a six-year AI industry veteran wrote - From GPT-4 to Claude Sonnet 4.5, from single models to multi-agent systems, from tool calling to autonomous action. Multiple signals indicate we're on the eve of an AI capability leap. This isn't prediction; it's what's already happening.
-      tags: ["Trend", "Prediction"]
-      link: "https://shumer.dev/something-big-is-happening"
-    
+      tags: ['Trend', 'Prediction']
+      link: 'https://shumer.dev/something-big-is-happening'
+
     - title: The Bitter Lesson
       author: Rich Sutton
-      year: "2019"
+      year: '2019'
       quote: 70 years of AI research teaches us that general methods leveraging computation ultimately beat human knowledge. We should stop trying to hard-code human knowledge into systems and instead build general methods that discover knowledge through search and learning.
-      tags: ["Methodology", "AI History"]
-      link: "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
-    
-    - title: "Language Models are Few-Shot Learners"
+      tags: ['Methodology', 'AI History']
+      link: 'http://www.incompleteideas.net/IncIdeas/BitterLesson.html'
+
+    - title: 'Language Models are Few-Shot Learners'
       author: OpenAI (GPT-3 Paper)
-      year: "2020"
+      year: '2020'
       quote: Large-scale language models demonstrate surprising few-shot learning capabilities. Without gradient updates or fine-tuning, models can complete various tasks through text interaction and examples alone.
-      tags: ["Technical Insight", "Few-Shot Learning"]
-      link: "https://arxiv.org/abs/2005.14165"
-    
+      tags: ['Technical Insight', 'Few-Shot Learning']
+      link: 'https://arxiv.org/abs/2005.14165'
+
     - title: The Law of Leaky Abstractions
       author: Joel Spolsky
-      year: "2002"
+      year: '2002'
       quote: All non-trivial abstractions leak to some degree. When we treat LLMs as an abstraction for "intelligence," what are its leaks? Are we over-relying on this abstraction? When abstractions leak—when AI fails, hallucinates, or loses control—what should we do?
-      tags: ["Software Engineering", "Abstraction"]
-      link: "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/"
-    
+      tags: ['Software Engineering', 'Abstraction']
+      link: 'https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/'
+
     - title: Tokens as Currency
       author: Conceptual Analogy
       quote: Tokens are the fundamental unit of measurement in the AI world. Just as monetary systems enable economic operation by quantifying value, Tokens construct AI economics by quantifying information - API calls are billed in Tokens, model capabilities measured by Token windows, making Tokens the value anchor connecting compute, data, and intelligence.
-      tags: ["Economics", "Concept"]
-    
-    - title: "Andrew Ng: Agentic Workflow is Hugely Valuable"
+      tags: ['Economics', 'Concept']
+
+    - title: 'Andrew Ng: Agentic Workflow is Hugely Valuable'
       author: Andrew Ng
-      year: "2024"
+      year: '2024'
       quote: LLMs are not the endpoint; Agentic Workflow is key. Letting AI work iteratively like humans—thinking, acting, reflecting, improving—can multiply AI effectiveness several times over.
-      tags: ["Workflow", "Agent"]
-      link: "https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/"
-    
+      tags: ['Workflow', 'Agent']
+      link: 'https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/'
+
     - title: Bash is All You Need
       author: Thariq Shihipar (Anthropic)
-      year: "2025"
+      year: '2025'
       quote: Rather than designing thousands of specialized APIs for Agents, grant them terminal access. The combination of Bash and filesystem constitutes complete universal computing capability—this is both the core philosophy of OpenClaw architecture and perhaps explains why modern agentic coding tools widely adopt TUI (Terminal User Interface).
-      tags: ["Technical Architecture", "Agent"]
-      link: "https://www.reddit.com/r/ClaudeAI/comments/1q4yig7/claude_agent_sdk_full_workshop_thariq_shihipar/"
-    
-    - title: "Anthropic Development Process: No More PRDs"
+      tags: ['Technical Architecture', 'Agent']
+      link: 'https://www.reddit.com/r/ClaudeAI/comments/1q4yig7/claude_agent_sdk_full_workshop_thariq_shihipar/'
+
+    - title: 'Anthropic Development Process: No More PRDs'
       author: Anthropic Team
-      year: "2025"
+      year: '2025'
       quote: Our engineering team no longer writes traditional PRD documents. Directly converse with Claude, describe requirements, iterate designs, generate code. Time from idea to prototype reduced by 10x.
-      tags: ["Development Process", "Industry Practice"]
-      link: "https://www.youtube.com/watch?v=julbw1JuAz0"
-    
-    - title: "TDD: Test-Driven Development"
+      tags: ['Development Process', 'Industry Practice']
+      link: 'https://www.youtube.com/watch?v=julbw1JuAz0'
+
+    - title: 'TDD: Test-Driven Development'
       author: Software Engineering Methodology
       quote: TDD in the AI era returns to essence—describe outcomes, not processes. Tests as specs, declarations as implementations. Conjure soldiers from beans, manifest through speech.
-      tags: ["Development Methodology", "TDD"]
-    
-    - title: "AI-Centric: Data + Workflow"
+      tags: ['Development Methodology', 'TDD']
+
+    - title: 'AI-Centric: Data + Workflow'
       author: Industry Trend
-      year: "2025"
+      year: '2025'
       quote: Shift from data-centric to AI-centric. Not embedding AI into existing systems, but redesigning data architecture and workflows around AI. This is a paradigm shift.
-      tags: ["Architecture", "Paradigm Shift"]
-    
+      tags: ['Architecture', 'Paradigm Shift']
+
     - title: AI Status Report Based on 100 Trillion Tokens
       author: OpenRouter & a16z
-      year: "2025-12"
+      year: '2025-12'
       quote: Roleplay and Programming are the two most core, sticky domains for AI implementation in practice. Programming Tokens surged from 11% in early 2025 to over 50%.
-      tags: ["Data", "Current Analysis"]
-      link: "https://openrouter.ai/state-of-ai"
-    
+      tags: ['Data', 'Current Analysis']
+      link: 'https://openrouter.ai/state-of-ai'
+
     - title: Global Intelligence Crisis 2028
       author: Citrini Research (James van Geelen & Alap Shah)
-      year: "2026-02-22"
+      year: '2026-02-22'
       quote: On February 22, 2026, Citrini Research published - If AI develops at current pace, 2028 may see a global "intelligence crisis" with unemployment reaching 10.2% and S&P 500 crashing 38%. Massive knowledge work automation, social restructuring, humans needing to redefine work and value.
-      tags: ["Future", "Social Impact"]
-      link: "https://www.citriniresearch.com/p/2028gic"
+      tags: ['Future', 'Social Impact']
+      link: 'https://www.citriniresearch.com/p/2028gic'
 
 ending:
   title: Thank You
