@@ -452,10 +452,12 @@ ai-agent-and-us:
       tags: ['开发流程', '产业实践']
       link: 'https://www.youtube.com/watch?v=julbw1JuAz0'
 
-    - title: TDD：测试驱动开发
-      author: 软件工程方法论
-      quote: AI时代的TDD回归本质：描述结果，而非过程。测试即规格，声明即实现——"撒豆成兵"、"言出法随"。
-      tags: ['开发方法论', 'TDD']
+    - title: 提示词即代码，.md 文件即状态
+      author: Mario Zechner
+      year: '2025-06-02'
+      quote: 将提示词视为代码，不仅改变了使用 AI 的方式，也让 AI 的输出变得可预测和可管理。这种“程序员思维”的回归，让我们在面对 LLM 的不确定性时，重新夺回了控制权。AI 时代的 TDD 回归本质：描述结果即规格，提示词即实现——“撒豆成兵”、“言出法随”。
+      tags: ['提示词工程', 'TDD', '方法论']
+      link: 'https://mariozechner.at/posts/2025-06-02-prompts-are-code/'
 
     - title: 以AI为中心：数据+工作流
       author: 行业趋势

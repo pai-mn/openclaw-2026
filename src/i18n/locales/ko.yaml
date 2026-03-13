@@ -460,10 +460,12 @@ ai-agent-and-us:
       tags: ['개발 프로세스', '산업 실무']
       link: 'https://www.youtube.com/watch?v=julbw1JuAz0'
 
-    - title: 'TDD: 테스트 주도 개발'
-      author: 소프트웨어 공학 방법론
-      quote: AI 시대의 TDD는 본질로 회귀—프로세스가 아닌 결과를 설명합니다. 테스트는 사양이 되고, 선언은 구현이 됩니다. 콩을 뿌려 군사를 만들듯, 말로 실현하듯.
-      tags: ['개발 방법론', 'TDD']
+    - title: 프롬프트는 코드고, .md 파일은 상태다
+      author: Mario Zechner
+      year: '2025-06-02'
+      quote: 프롬프트를 코드로 취급하는 것은 AI 사용 방식뿐만 아니라 AI 출력을 예측 가능하고 관리 가능하게 만듭니다. 이러한 "프로그래머 마인드셋"의 회귀는 LLM의 불확실성에 직면했을 때 우리가 다시 통제권을 되찾게 해줍니다. AI 시대의 TDD는 본질로 회귀—프롬프트가 사양이 되고 선언이 구현이 됩니다.
+      tags: ['프롬프트 엔지니어링', 'TDD', '방법론']
+      link: 'https://mariozechner.at/posts/2025-06-02-prompts-are-code/'
 
     - title: 'AI 중심: 데이터 + 워크플로'
       author: 업계 트렌드

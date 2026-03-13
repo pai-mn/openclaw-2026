@@ -458,10 +458,12 @@ ai-agent-and-us:
       tags: ['Development Process', 'Industry Practice']
       link: 'https://www.youtube.com/watch?v=julbw1JuAz0'
 
-    - title: 'TDD: Test-Driven Development'
-      author: Software Engineering Methodology
-      quote: TDD in the AI era returns to essence—describe outcomes, not processes. Tests as specs, declarations as implementations. Conjure soldiers from beans, manifest through speech.
-      tags: ['Development Methodology', 'TDD']
+    - title: Prompts are Code, .md Files are State
+      author: Mario Zechner
+      year: '2025-06-02'
+      quote: Treating prompts as code doesn't just change how we use AI, it makes AI outputs predictable and manageable. This return to a "programmer's mindset" allows us to regain control in the face of LLM uncertainty. TDD in the AI era returns to essence—prompts as specs, declarations as implementations.
+      tags: ['Prompt Engineering', 'TDD', 'Methodology']
+      link: 'https://mariozechner.at/posts/2025-06-02-prompts-are-code/'
 
     - title: 'AI-Centric: Data + Workflow'
       author: Industry Trend
