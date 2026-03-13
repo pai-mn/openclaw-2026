@@ -427,6 +427,14 @@ ai-agent-and-us:
       quote: Tokens are the fundamental unit of measurement in the AI world. Just as monetary systems enable economic operation by quantifying value, Tokens construct AI economics by quantifying information - API calls are billed in Tokens, model capabilities measured by Token windows, making Tokens the value anchor connecting compute, data, and intelligence.
       tags: ['Economics', 'Concept']
 
+    - title: 'Self-Driving Codebase'
+      author: Background Agents / Modal
+      year: '2026'
+      quote: >
+        Self-Driving Codebase means AI agents autonomously write, test, and deploy code. Ramp's background coding agent now writes over half of merged PRs. Modal's cloud sandboxes enable 50,000+ concurrent execution environments—secure, sub-second startup, dynamically defined. As agents take over execution, the bottleneck shifts to human: code review, approval, and coordination become the new constraints. Humans become the coordination layer, not the execution layer.
+      tags: ['Infrastructure', 'Agent', 'Paradigm Shift', 'Sandbox']
+      link: 'https://background-agents.com'
+
     - title: 'Andrew Ng: Agentic Workflow is Hugely Valuable'
       author: Andrew Ng
       year: '2024'

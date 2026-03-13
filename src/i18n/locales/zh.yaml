@@ -421,6 +421,14 @@ ai-agent-and-us:
       quote: Tokens是AI世界的基础计量单位。正如货币体系通过量化价值实现经济运转，Tokens通过量化信息构建了AI经济学：API调用以Tokens计费，模型能力以Token窗口度量，Tokens成为连接算力、数据与智能的价值锚点。
       tags: ['经济学', '概念']
 
+    - title: '自驱动的代码库'
+      author: 后台 Agents / Modal
+      year: '2026'
+      quote: >
+        自驱动的代码库意味着 AI Agent 自主编写、测试和部署代码。Ramp 的后台编程 Agent 目前已编写超过一半的合并 PR。Modal 的云端沙箱支持 50,000+ 并发执行环境——安全、亚秒级启动、动态定义。当 Agent 接管执行后，瓶颈转向人类：代码审查、批准和协调成为新的约束。人类成为协调层，而非执行层。
+      tags: ['基础设施', 'Agent', '范式转变', '沙箱']
+      link: 'https://background-agents.com'
+
     - title: 吴恩达：Agentic Workflow价值巨大
       author: Andrew Ng
       year: '2024'
