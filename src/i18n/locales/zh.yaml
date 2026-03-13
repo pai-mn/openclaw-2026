@@ -424,7 +424,7 @@ ai-agent-and-us:
     - title: 吴恩达：Agentic Workflow价值巨大
       author: Andrew Ng
       year: '2024'
-      quote: LLM并非AI终点，但基于LLM的Agentic Workflow已经价值巨大。
+      quote: 承认规模的价值，但拒绝规模的迷信；看好Agentic Workflow的当下，但正视通往AGI路径上的未知——可靠性缺口、工具过载陷阱、泡沫警告，皆需警惕。
       tags: ['工作流', 'Agent']
       link: 'https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/'
 

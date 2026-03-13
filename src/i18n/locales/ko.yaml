@@ -432,7 +432,7 @@ ai-agent-and-us:
     - title: '앤드류 응: Agentic Workflow는 엄청난 가치'
       author: Andrew Ng
       year: '2024'
-      quote: LLM은 AI의 종착점이 아니지만, LLM 기반 Agentic Workflow는 이미 엄청난 가치를 가지고 있습니다.
+      quote: 규모의 가치를 인정하지만 규모의 미신을 거부한다; Agentic Workflow의 현재에 대해 낙관하지만 AGI로 가는 길의 불확실성을 직시한다—신뢰성 공백, 도구 과부하 함정, 거품 경고 모두 경계를 요구한다.
       tags: ['워크플로', '에이전트']
       link: 'https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/'
 
