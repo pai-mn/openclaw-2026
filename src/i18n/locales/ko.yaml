@@ -436,6 +436,13 @@ ai-agent-and-us:
       tags: ['워크플로', '에이전트']
       link: 'https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/'
 
+    - title: '샘 알트만: GDP 시대에서 극단적 풍요와 디플레이션으로'
+      author: Sam Altman (OpenAI)
+      year: '2025'
+      quote: 명목 GDP는 더 이상 유효한 경제 지표가 된다; 사회는 "비희석" 제도를 재설계해야 한다. AGI는 눈 앞에 있고, ASI는 몇 년 남지 않았다.
+      tags: ['경제', 'AGI']
+      link: 'https://www.youtube.com/watch?v=-9K6uWysyJQ'
+
     - title: Bash만 있으면 충분하다
       author: Thariq Shihipar (Anthropic)
       year: '2025'

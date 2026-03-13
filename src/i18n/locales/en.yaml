@@ -434,6 +434,13 @@ ai-agent-and-us:
       tags: ['Workflow', 'Agent']
       link: 'https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/'
 
+    - title: 'Sam Altman: From GDP Era to Extreme Abundance & Deflation'
+      author: Sam Altman (OpenAI)
+      year: '2025'
+      quote: Nominal GDP becomes a defunct economic metric; society must reimagine institutions for "post-scarcity." AGI is within reach, and ASI is only years away.
+      tags: ['Economics', 'AGI']
+      link: 'https://www.youtube.com/watch?v=-9K6uWysyJQ'
+
     - title: Bash is All You Need
       author: Thariq Shihipar (Anthropic)
       year: '2025'

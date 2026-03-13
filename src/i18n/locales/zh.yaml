@@ -428,6 +428,13 @@ ai-agent-and-us:
       tags: ['工作流', 'Agent']
       link: 'https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/'
 
+    - title: 山姆·奥特曼：从GDP时代迈向极度丰裕与通缩
+      author: Sam Altman (OpenAI)
+      year: '2025'
+      quote: 名义GDP成为失效的经济指标，社会需重新构想"非稀缺"的制度。AGI已近在咫尺，而ASI仅剩几年之遥。
+      tags: ['经济', 'AGI']
+      link: 'https://www.youtube.com/watch?v=-9K6uWysyJQ'
+
     - title: Bash is All You Need
       author: Thariq Shihipar (Anthropic)
       year: '2025'
