@@ -10,3 +10,4 @@ git commit -m "Generate pages: $(date '+%Y-%m-%dT%H:%M:%S%z')"
 git push -fu origin gh-pages
 git checkout main
 git branch -D gh-pages
+rm -rf docs
