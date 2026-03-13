@@ -430,7 +430,7 @@ ai-agent-and-us:
     - title: 'Andrew Ng: Agentic Workflow is Hugely Valuable'
       author: Andrew Ng
       year: '2024'
-      quote: LLMs are not the endpoint; Agentic Workflow is key. Letting AI work iteratively like humans—thinking, acting, reflecting, improving—can multiply AI effectiveness several times over.
+      quote: LLMs aren't the AI endpoint, but LLM-based Agentic Workflow is already hugely valuable.
       tags: ['Workflow', 'Agent']
       link: 'https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/'
 
