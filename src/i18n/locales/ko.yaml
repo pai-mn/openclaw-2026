@@ -77,16 +77,11 @@ puzzle:
           short: Bash
           color: '#ffa502'
         - number: 세 번째 조각
-          title: MCP 프로토콜
-          content: Model Context Protocol
-          short: MCP
+          title: MCP/Skills
+          content: MCP 프로토콜 및 스킬 생태계
+          short: MCP/Skills
           color: '#20bf6b'
-        - number: 네 번째 조각
-          title: 스킬 생태계
-          content: Skills Ecosystem
-          short: Skills
-          color: '#06b6d4'
-      result: 이 네 가지 핵심 조각이 완벽하게 맞물릴 때, OpenClaw가 탄생하고 진정으로 사용 가능한 AI 에이전트 시대가 시작됩니다.
+      result: 이 세 가지 핵심 조각이 완벽하게 맞물릴 때, OpenClaw가 탄생하고 진정으로 사용 가능한 AI 에이전트 시대가 시작됩니다.
     reality:
       title: OpenClaw는 실제로 어떤가요?
       subtitle: 사용 가능하지만 여러 "문제"가 있는 시스템 | ✨ 작동하며, 때로는 상당히 인상적입니다 ✨

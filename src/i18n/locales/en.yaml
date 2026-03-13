@@ -77,16 +77,11 @@ puzzle:
           short: Bash
           color: '#ffa502'
         - number: Third Piece
-          title: MCP Protocol
-          content: Model Context Protocol
-          short: MCP
+          title: MCP/Skills
+          content: Model Context Protocol & Skills Ecosystem
+          short: MCP/Skills
           color: '#20bf6b'
-        - number: Fourth Piece
-          title: Skills Ecosystem
-          content: Skills Ecosystem
-          short: Skills
-          color: '#06b6d4'
-      result: When these four critical pieces click together perfectly, OpenClaw emerges, and the era of truly usable AI agents begins.
+      result: When these three critical pieces click together perfectly, OpenClaw emerges, and the era of truly usable AI agents begins.
     reality:
       title: What's OpenClaw Really Like?
       subtitle: A usable system with a bunch of "issues" | ✨ It works, sometimes remarkably well ✨

@@ -76,16 +76,11 @@ puzzle:
           short: Bash
           color: '#ffa502'
         - number: 第三块
-          title: MCP 协议
-          content: Model Context Protocol
-          short: MCP
+          title: MCP/Skills
+          content: MCP 协议与技能生态系统
+          short: MCP/Skills
           color: '#20bf6b'
-        - number: 第四块
-          title: 技能生态系统
-          content: Skills Ecosystem
-          short: Skills
-          color: '#06b6d4'
-      result: 当这四块关键拼图完美咬合，OpenClaw 应运而生，真正可用的 AI 智能体时代就此开启。
+      result: 当这三块关键拼图完美咬合，OpenClaw 应运而生，真正可用的 AI 智能体时代就此开启。
     reality:
       title: OpenClaw 到底怎么样？
       subtitle: 一个可用，但有一堆"问题"的系统｜✨ 可以工作，有时候相当惊艳 ✨
