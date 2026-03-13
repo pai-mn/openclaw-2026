@@ -3,20 +3,22 @@
 import React, { useState, useEffect } from "react";
 import { useI18n } from "@/app/i18n";
 import Link from "next/link";
-import Image from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import { 
   ArrowLeft, ArrowRight, ChevronDown, X,
   Coffee, FileText, Users, UtensilsCrossed, 
   Mail, ClipboardCheck, Calendar, Moon, Bell
 } from "lucide-react";
 import LanguageSwitcher from "@/app/components/LanguageSwitcher";
+import feishuImg from "@/assets/feishu.png";
+import evolutionLoopImg from "@/assets/evolution-loop.jpg";
 
 export default function OpenclawCapabilities() {
   const { t } = useI18n();
   const [mounted, setMounted] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
-  const [previewImage, setPreviewImage] = useState<string | null>(null);
+  const [previewImage, setPreviewImage] = useState<StaticImageData | null>(null);
   const [hoveredTaskIndex, setHoveredTaskIndex] = useState<number | null>(null);
 
   const featureColors = [
@@ -193,11 +195,11 @@ export default function OpenclawCapabilities() {
                           className="mt-4 rounded-xl overflow-hidden cursor-pointer hover:opacity-90 transition-opacity"
                           onClick={(e) => {
                             e.stopPropagation();
-                            setPreviewImage('/feishu.png');
+                            setPreviewImage(feishuImg);
                           }}
                         >
                           <Image 
-                            src="/feishu.png" 
+                            src={feishuImg}
                             alt={t('capabilities.multiChannelExample')}
                             width={800} 
                             height={600}
@@ -369,11 +371,11 @@ export default function OpenclawCapabilities() {
                             className="rounded-xl overflow-hidden cursor-pointer hover:opacity-90 transition-opacity"
                             onClick={(e) => {
                               e.stopPropagation();
-                              setPreviewImage('/evolution-loop.jpg');
+                              setPreviewImage(evolutionLoopImg);
                             }}
                           >
                             <Image 
-                              src="/evolution-loop.jpg" 
+                              src={evolutionLoopImg}
                               alt={t('capabilities.evolutionLoopAlt')}
                               width={1200} 
                               height={800}

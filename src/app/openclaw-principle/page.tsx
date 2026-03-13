@@ -3,15 +3,18 @@
 import { useState, useEffect } from "react";
 import { useI18n } from "@/app/i18n";
 import Link from "next/link";
-import Image from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import { ArrowLeft, ArrowRight, X } from "lucide-react";
 import LanguageSwitcher from "@/app/components/LanguageSwitcher";
+import openclawArchImg from "@/assets/openclaw-arch.jpg";
+import agentLoopSimpleImg from "@/assets/agent-loop-simple.jpg";
+import opencodeAgentLoopImg from "@/assets/opencode-agent-loop.jpg";
 
 export default function OpenclawPrinciple() {
   const { t } = useI18n();
   const [mounted, setMounted] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [previewImage, setPreviewImage] = useState<string | null>(null);
+  const [previewImage, setPreviewImage] = useState<StaticImageData | null>(null);
 
   useEffect(() => {
     setMounted(true);
@@ -213,11 +216,11 @@ export default function OpenclawPrinciple() {
                               className="relative w-full aspect-[16/9] rounded-lg overflow-hidden border border-gray-200 cursor-pointer hover:opacity-90 transition-opacity"
                               onClick={(e) => {
                                 e.stopPropagation();
-                                setPreviewImage('/openclaw-arch.jpg');
+                                setPreviewImage(openclawArchImg);
                               }}
                             >
                               <Image
-                                src="/openclaw-arch.jpg"
+                                src={openclawArchImg}
                                 alt="OpenClaw System Architecture"
                                 fill
                                 className="object-contain"
@@ -254,11 +257,11 @@ export default function OpenclawPrinciple() {
                               className="relative w-full rounded-lg overflow-hidden border border-gray-200 cursor-pointer hover:opacity-90 transition-opacity bg-white"
                               onClick={(e) => {
                                 e.stopPropagation();
-                                setPreviewImage('/agent-loop-simple.jpg');
+                                setPreviewImage(agentLoopSimpleImg);
                               }}
                             >
                               <Image
-                                src="/agent-loop-simple.jpg"
+                                src={agentLoopSimpleImg}
                                 alt="Agent Loop Simple Diagram"
                                 width={800}
                                 height={600}
@@ -274,11 +277,11 @@ export default function OpenclawPrinciple() {
                               className="relative w-full rounded-lg overflow-hidden border border-gray-200 cursor-pointer hover:opacity-90 transition-opacity bg-white"
                               onClick={(e) => {
                                 e.stopPropagation();
-                                setPreviewImage('/opencode-agent-loop.jpg');
+                                setPreviewImage(opencodeAgentLoopImg);
                               }}
                             >
                               <Image
-                                src="/opencode-agent-loop.jpg"
+                                src={opencodeAgentLoopImg}
                                 alt="Agent Loop Complete Diagram"
                                 width={1200}
                                 height={900}
