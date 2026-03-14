@@ -289,7 +289,7 @@ principle:
   architecture:
     philosophy:
       title: 核心设计哲学：Bash is All You Need
-      intro: 来自 Anthropic 工程师 Thariq Shihipar 在《Claude Agent SDK Workshop》中提出的革命性观点：与其为 Agent 定义成千上万个定制化 API，不如直接赋予它 Unix 时代的两项原始能力。
+      intro: 来自 Anthropic 工程师 Thariq Shihipar 在《Claude Code SDK Workshop》中提出的革命性观点：与其为 Agent 定义成千上万个定制化 API，不如直接赋予它 Unix 时代的两项原始能力。
       bash:
         title: Bash（终极胶水）
         composability: '组合性：通过管道连接百万级成熟软件'
@@ -324,7 +324,7 @@ principle:
     simpleDiagram: 简化流程图
     completeDiagram: 完整执行流程
     readMore: 拓展资料
-    readMoreDesc: 深入了解 Claude Agent 的工作原理与最佳实践
+    readMoreDesc: 深入了解 Claude Code 的工作原理与最佳实践
 
 ai-agent-and-us:
   title: AI Agent与我们

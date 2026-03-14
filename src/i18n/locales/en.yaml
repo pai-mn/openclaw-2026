@@ -295,7 +295,7 @@ principle:
   architecture:
     philosophy:
       title: 'Core Design Philosophy: Bash is All You Need'
-      intro: "Revolutionary insight from Anthropic engineer Thariq Shihipar in 'Claude Agent SDK Workshop': Instead of defining thousands of custom APIs for Agents, give them two primitive Unix-era capabilities."
+      intro: "Revolutionary insight from Anthropic engineer Thariq Shihipar in 'Claude Code SDK Workshop': Instead of defining thousands of custom APIs for Agents, give them two primitive Unix-era capabilities."
       bash:
         title: Bash (Ultimate Glue)
         composability: 'Composability: Connect millions of mature software via pipes'
@@ -330,7 +330,7 @@ principle:
     simpleDiagram: Simplified Flow Diagram
     completeDiagram: Complete Execution Flow
     readMore: Further Reading
-    readMoreDesc: Deep dive into Claude Agent's working principles and best practices
+    readMoreDesc: Deep dive into Claude Code's working principles and best practices
 
 ai-agent-and-us:
   title: AI Agent and Us
